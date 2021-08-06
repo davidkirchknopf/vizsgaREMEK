@@ -1,0 +1,111 @@
+[ {
+  "uid" : "eccc6e529d5b8712",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628285912863,
+    "stop" : 1628285937553,
+    "duration" : 24690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b56f6223cdfcc5a2",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628286057936,
+    "stop" : 1628286068357,
+    "duration" : 10421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81fb302588e7d110",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628286047048,
+    "stop" : 1628286057930,
+    "duration" : 10882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "258962a6dda2a69b",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628285965245,
+    "stop" : 1628285979256,
+    "duration" : 14011
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a0b264280e61665",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628285979261,
+    "stop" : 1628286000742,
+    "duration" : 21481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8828f3c3836b25c",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628286025238,
+    "stop" : 1628286047038,
+    "duration" : 21800
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ada4186f4525903",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628285937575,
+    "stop" : 1628285950656,
+    "duration" : 13081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "897698d1edb146e8",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628285884576,
+    "stop" : 1628285912728,
+    "duration" : 28152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2763593c9de724b",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628285950661,
+    "stop" : 1628285965222,
+    "duration" : 14561
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8a628f0e4481fdc2",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628286068362,
+    "stop" : 1628286083637,
+    "duration" : 15275
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "344cb09654380765",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628286000755,
+    "stop" : 1628286025233,
+    "duration" : 24478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
