@@ -1,0 +1,166 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[1]//span[@class='symbollink-text']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Bl56lO}, goog:chromeOptions: {debuggerAddress: localhost:44579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e90aa63c04e4f301a78896d8279defb6\n*** Element info: {Using=xpath, value=//li[1]//span[@class='symbollink-text']}",
+      "children" : [ {
+        "name" : "clickingWhomCouldIKnow()",
+        "uid" : "47f974df237e3221",
+        "parentUid" : "08ca2295d18cd27e95da98da10d6b998",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285857697,
+          "stop" : 1628285882478,
+          "duration" : 24781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08ca2295d18cd27e95da98da10d6b998"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='menu-item-logout-inner menu-link-text']\n\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.cWVQDv}, goog:chromeOptions: {debuggerAddress: localhost:43403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 497fdd68d66def3e3691f504fb1bcaeb\n*** Element info: {Using=xpath, value=//span[@class='menu-item-logout-inner menu-link-text']\n}",
+      "children" : [ {
+        "name" : "LogOutTest()",
+        "uid" : "b83317db6be6f191",
+        "parentUid" : "3aa860785d2f638e15c5a6e98cc9ff4f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285882501,
+          "stop" : 1628285897166,
+          "duration" : 14665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3aa860785d2f638e15c5a6e98cc9ff4f"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.='Profile']\n\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.y0fQt3}, goog:chromeOptions: {debuggerAddress: localhost:37585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6d651e9c62e598fc929fa84de67c06b9\n*** Element info: {Using=xpath, value=//span[.='Profile']\n}",
+      "children" : [ {
+        "name" : "ModificationTest()",
+        "uid" : "f70ac74ef1675894",
+        "parentUid" : "4afbf9c2b09ec984f1739c3115ee4b35",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285897182,
+          "stop" : 1628285912009,
+          "duration" : 14827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4afbf9c2b09ec984f1739c3115ee4b35"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.='My messages']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.t7PeCr}, goog:chromeOptions: {debuggerAddress: localhost:45093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 89998322b97a4e9de248f81849fbce19\n*** Element info: {Using=xpath, value=//span[.='My messages']}",
+      "children" : [ {
+        "name" : "DownloadAgisInformation()",
+        "uid" : "6934b13d2f9ccaea",
+        "parentUid" : "4a5b62cca3e68719d9fade4f5045dbf6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285912026,
+          "stop" : 1628285927865,
+          "duration" : 15839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a5b62cca3e68719d9fade4f5045dbf6"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"messagescont\"]/div/div[1]/div/div[2]/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.rjNlGN}, goog:chromeOptions: {debuggerAddress: localhost:42295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3550499fa18fbdec0dcd738d26816663\n*** Element info: {Using=xpath, value=//*[@id=\"messagescont\"]/div/div[1]/div/div[2]/ul/li[4]/a}",
+      "children" : [ {
+        "name" : "writeANewMessage()",
+        "uid" : "5200c05b6bfc91fa",
+        "parentUid" : "f7cc875a6595f35059b04097d89b200c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285927874,
+          "stop" : 1628285954844,
+          "duration" : 26970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7cc875a6595f35059b04097d89b200c"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.='Friends']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.gqRQYU}, goog:chromeOptions: {debuggerAddress: localhost:34227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5837c1c4d515fd1a975ea0a72a709783\n*** Element info: {Using=xpath, value=//span[.='Friends']}",
+      "children" : [ {
+        "name" : "searchingForFriends()",
+        "uid" : "628a6d4167a3084d",
+        "parentUid" : "9f121b1f219b0eefdaf7ca8c1fa66471",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285954884,
+          "stop" : 1628285969611,
+          "duration" : 14727
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f121b1f219b0eefdaf7ca8c1fa66471"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.='Profile']\n\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.6wgzPd}, goog:chromeOptions: {debuggerAddress: localhost:38555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5f85c93d02878851d69029e500bd6bd5\n*** Element info: {Using=xpath, value=//span[.='Profile']\n}",
+      "children" : [ {
+        "name" : "ModificationTest()",
+        "uid" : "4e4dcb069b27e9f6",
+        "parentUid" : "134fdc46a53a397db6287c910d163b5b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285969617,
+          "stop" : 1628285984315,
+          "duration" : 14698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "134fdc46a53a397db6287c910d163b5b"
+    }, {
+      "name" : "element click intercepted: Element <span class=\"btn-text\">...</span> is not clickable at point (576, 550). Other element would receive the click: <a class=\"cc_logo\" target=\"_blank\" href=\"http://silktide.com/cookieconsent\">...</a>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.4iSmrq}, goog:chromeOptions: {debuggerAddress: localhost:46231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7b9b7f9ece1c037e9579c069664ad290",
+      "children" : [ {
+        "name" : "Registration()",
+        "uid" : "1bdb7c22611a79cd",
+        "parentUid" : "39b3795d1f3b957bf128a059a97ee772",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628286005438,
+          "stop" : 1628286020855,
+          "duration" : 15417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39b3795d1f3b957bf128a059a97ee772"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <http://myvip.com/homeent.php?> but was: <http://myvip.com/index.php?act=login>",
+      "children" : [ {
+        "name" : "Login()",
+        "uid" : "ac91d74f78d6bd4b",
+        "parentUid" : "e2a9608442f600491997650fee36517e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628285984322,
+          "stop" : 1628285994615,
+          "duration" : 10293
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2a9608442f600491997650fee36517e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

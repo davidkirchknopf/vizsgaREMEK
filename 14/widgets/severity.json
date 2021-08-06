@@ -1,0 +1,111 @@
+[ {
+  "uid" : "1bdb7c22611a79cd",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628286005438,
+    "stop" : 1628286020855,
+    "duration" : 15417
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4e4dcb069b27e9f6",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628285969617,
+    "stop" : 1628285984315,
+    "duration" : 14698
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "47f974df237e3221",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628285857697,
+    "stop" : 1628285882478,
+    "duration" : 24781
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "628a6d4167a3084d",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628285954884,
+    "stop" : 1628285969611,
+    "duration" : 14727
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a656b420f18432a",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628285994629,
+    "stop" : 1628286005431,
+    "duration" : 10802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5200c05b6bfc91fa",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628285927874,
+    "stop" : 1628285954844,
+    "duration" : 26970
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ac91d74f78d6bd4b",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628285984322,
+    "stop" : 1628285994615,
+    "duration" : 10293
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8eaae73ba73684bb",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628285821143,
+    "stop" : 1628285857591,
+    "duration" : 36448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6934b13d2f9ccaea",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628285912026,
+    "stop" : 1628285927865,
+    "duration" : 15839
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b83317db6be6f191",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628285882501,
+    "stop" : 1628285897166,
+    "duration" : 14665
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f70ac74ef1675894",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628285897182,
+    "stop" : 1628285912009,
+    "duration" : 14827
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
