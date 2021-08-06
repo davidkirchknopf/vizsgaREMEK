@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.*;
+import util.Util;
 
 public class DatasListingTest extends BaseTest {
 
@@ -15,6 +16,7 @@ public class DatasListingTest extends BaseTest {
         }
         doLogin();
         MainPage mainPage = new MainPage(driver);
+        Util.TakeScreenshot(driver);
         WhomCouldIKnowPage whomCouldIKnowPage = mainPage.clickWhomCouldIKnow();
         whomCouldIKnowPage.clickFilterForName();
         whomCouldIKnowPage.typeFilterForName();

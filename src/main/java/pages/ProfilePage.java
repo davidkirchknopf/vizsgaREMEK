@@ -17,7 +17,7 @@ public class ProfilePage {
         this.driver = driver;
         this.wait = wait;
     }
-    private final By profileMainButton = By.xpath("//span[.='Profile']\n");
+    private final By profileMainButton = By.xpath("//div[4]/div/a[1]");
     private final By enterTextOnTheWall = By.xpath("//*[@id=\"entry_share_form\"]/div[1]/span/textarea");
     private final By shareButton = By.xpath("//*[@id=\"entry_share_form\"]/div[3]/span[2]/a/span[2]");
     private final By deleteEntryFromWallButton = By.xpath("//div[@class='entry-item-inner cf']/div[@class='entry-item-delete-wrapper']//span[1]/a[@href='javascript:;']");

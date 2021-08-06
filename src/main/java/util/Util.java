@@ -1,8 +1,10 @@
 package util;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
+import org.openqa.selenium.*;
+
+import java.io.ByteArrayInputStream;
 
 public class Util {
 
@@ -30,5 +32,10 @@ public class Util {
     public static void clickElement(WebDriver driver, By locator){
         driver.findElement(locator).click();
         deleteAds(driver);
+    }
+    @Step("TakeScreenshot")
+    public static void TakeScreenshot(WebDriver driver){
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
     }
 }

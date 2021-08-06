@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.MessagesPage;
 import pages.ProfilePage;
+import util.Util;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -14,6 +15,7 @@ public class DataInputFromSourceTest extends BaseTest {
     public void DataInputFromSource() throws InterruptedException {
         doLogin();
         ProfilePage profilePage = new ProfilePage(driver, wait);
+        Util.TakeScreenshot(driver);
         profilePage.clickOnProfileMainButton();
         profilePage.repeatedMultiInputSearch();
         profilePage.clickOnShareButton();
