@@ -25,20 +25,20 @@ public class BaseTest {
 
     @BeforeEach
     public void setUp(){
-        //WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
+        WebDriverManager.chromedriver().setup();
+        //System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
         ChromeOptions options = new ChromeOptions();
-        wait = new WebDriverWait(driver, 2);
+        
         options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
-        options.setExperimentalOption("useAutomationExtension", false);
-        options.addArguments("disable-infobars");
-        options.addArguments("--disable-extensions");
+        //options.setExperimentalOption("useAutomationExtension", false);
+        //options.addArguments("disable-infobars");
+        //options.addArguments("--disable-extensions");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
-        options.addArguments("--single-process");
+        //options.addArguments("--single-process");
         
         driver = new ChromeDriver(options);
-        
+        wait = new WebDriverWait(driver, 2);
         driver.get("http://myvip.com/index.php?");
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
