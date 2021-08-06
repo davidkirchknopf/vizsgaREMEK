@@ -25,7 +25,7 @@ public class BaseTest {
     @BeforeEach
     public void setUp(){
         //WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, 2);
