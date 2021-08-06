@@ -28,7 +28,6 @@ public class BaseTest {
         //WebDriverManager.chromedriver().setup();
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
         ChromeOptions options = new ChromeOptions();
-        driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, 2);
         options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
         options.setExperimentalOption("useAutomationExtension", false);
@@ -37,6 +36,9 @@ public class BaseTest {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
         options.addArguments("--single-process");
+        
+        driver = new ChromeDriver(options);
+        
         driver.get("http://myvip.com/index.php?");
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
