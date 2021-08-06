@@ -31,6 +31,7 @@ public class BaseTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
+        options.addArguments("--single-process");
         driver.get("http://myvip.com/index.php?");
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
