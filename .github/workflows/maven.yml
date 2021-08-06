@@ -24,8 +24,8 @@ jobs:
       - name: Install dependencies
         run: mvn dependency:go-offline compile compiler:testCompile
       
-      - name: Mark driver as executable
-        run: chmod +x /home/runner/work/vizsgaREMEK/vizsgaREMEK/src/main/resources/chromedriver
+     # - name: Mark driver as executable
+     #   run: chmod +x /home/runner/work/vizsgaREMEK/vizsgaREMEK/src/main/resources/chromedriver
       - name: Run Test
         if: always()
         run: mvn -X clean test
