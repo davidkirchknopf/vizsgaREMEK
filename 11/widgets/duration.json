@@ -1,0 +1,111 @@
+[ {
+  "uid" : "45f221c2f6eb2c9b",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628284453975,
+    "stop" : 1628284457146,
+    "duration" : 3171
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e97064f871202dd5",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628284469830,
+    "stop" : 1628284472961,
+    "duration" : 3131
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a0e704e5b4a3ce2b",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628284441327,
+    "stop" : 1628284444505,
+    "duration" : 3178
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "15ecb56d4239dff1",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628284447665,
+    "stop" : 1628284450811,
+    "duration" : 3146
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e1887ea1bd025c61",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628284450821,
+    "stop" : 1628284453952,
+    "duration" : 3131
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ae263e1ee9f9668",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628284444522,
+    "stop" : 1628284447655,
+    "duration" : 3133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b222c95432bf69c",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628284466660,
+    "stop" : 1628284469819,
+    "duration" : 3159
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ecf37285cc25833",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628284463492,
+    "stop" : 1628284466644,
+    "duration" : 3152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "238bec71e6981078",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628284457155,
+    "stop" : 1628284460313,
+    "duration" : 3158
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "61dc9bcc9cf59821",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628284460329,
+    "stop" : 1628284463485,
+    "duration" : 3156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "776453728f6e3ee4",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628284431175,
+    "stop" : 1628284441225,
+    "duration" : 10050
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
