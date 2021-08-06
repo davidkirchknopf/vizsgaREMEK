@@ -1,0 +1,111 @@
+[ {
+  "uid" : "771860875b2d95be",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628288652552,
+    "stop" : 1628288672306,
+    "duration" : 19754
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "77e336a85fe20bd5",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628288502754,
+    "stop" : 1628288541318,
+    "duration" : 38564
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "91abf05c7493e3b7",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628288588761,
+    "stop" : 1628288611204,
+    "duration" : 22443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8be20d9de2c1a7d",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628288529651,
+    "stop" : 1628288541423,
+    "duration" : 11772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecbb6571a6376216",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628288502732,
+    "stop" : 1628288529584,
+    "duration" : 26852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b39effe3391d2be1",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628288555414,
+    "stop" : 1628288568017,
+    "duration" : 12603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1406b41abc6a7f4",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628288541428,
+    "stop" : 1628288555410,
+    "duration" : 13982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e09331d6972eb338",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628288631583,
+    "stop" : 1628288642059,
+    "duration" : 10476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ebc3a00c0499bcb",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628288568020,
+    "stop" : 1628288588755,
+    "duration" : 20735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2235865e43f39b5e",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628288642064,
+    "stop" : 1628288652549,
+    "duration" : 10485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cdfeb2a3ad4b833",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628288611218,
+    "stop" : 1628288631568,
+    "duration" : 20350
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

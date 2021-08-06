@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[1]//span[@class='symbollink-text']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.157', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.aGiM7o}, goog:chromeOptions: {debuggerAddress: localhost:39151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0e1764db5bf7c3a607396c14bd9ce03f\n*** Element info: {Using=xpath, value=//li[1]//span[@class='symbollink-text']}",
+      "children" : [ {
+        "name" : "clickingWhomCouldIKnow()",
+        "uid" : "77e336a85fe20bd5",
+        "parentUid" : "fb3d871c03a54b48b2919579c2080d13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628288502754,
+          "stop" : 1628288541318,
+          "duration" : 38564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb3d871c03a54b48b2919579c2080d13"
+    }, {
+      "name" : "element click intercepted: Element <span class=\"btn-text\">...</span> is not clickable at point (576, 550). Other element would receive the click: <a class=\"cc_logo\" target=\"_blank\" href=\"http://silktide.com/cookieconsent\">...</a>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.157', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ZSArkd}, goog:chromeOptions: {debuggerAddress: localhost:34937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e68066563c0e189cebbdc31a353466e2",
+      "children" : [ {
+        "name" : "Registration()",
+        "uid" : "771860875b2d95be",
+        "parentUid" : "75123a806b90a4d46d346acd73242d59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628288652552,
+          "stop" : 1628288672306,
+          "duration" : 19754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75123a806b90a4d46d346acd73242d59"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <5> but was: <(45)>",
+      "children" : [ {
+        "name" : "ModificationTest()",
+        "uid" : "7cdfeb2a3ad4b833",
+        "parentUid" : "14fa143639787f818f3d5a4c06abd939",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628288611218,
+          "stop" : 1628288631568,
+          "duration" : 20350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14fa143639787f818f3d5a4c06abd939"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
