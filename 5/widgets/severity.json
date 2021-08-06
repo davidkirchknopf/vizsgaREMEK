@@ -1,0 +1,111 @@
+[ {
+  "uid" : "88476382d97c125e",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628259604330,
+    "stop" : 1628259607333,
+    "duration" : 3003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9d723a43d73544d6",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628259588935,
+    "stop" : 1628259592088,
+    "duration" : 3153
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "454616bb30ed910d",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628259616377,
+    "stop" : 1628259619380,
+    "duration" : 3003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b0743370c0daff9",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628259601312,
+    "stop" : 1628259604315,
+    "duration" : 3003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "349ea49138ae47dc",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628259592279,
+    "stop" : 1628259595283,
+    "duration" : 3004
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73ac2b86e4fe83a4",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628259598304,
+    "stop" : 1628259601306,
+    "duration" : 3002
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33c414437a736b9c",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628259610353,
+    "stop" : 1628259613356,
+    "duration" : 3003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8a93179d78a233d7",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628259589079,
+    "stop" : 1628259592165,
+    "duration" : 3086
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b47def6cda2492f",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628259595293,
+    "stop" : 1628259598296,
+    "duration" : 3003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "db1018f8517d4848",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628259607344,
+    "stop" : 1628259610347,
+    "duration" : 3003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3af96e613d25a43f",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628259613366,
+    "stop" : 1628259616371,
+    "duration" : 3005
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
