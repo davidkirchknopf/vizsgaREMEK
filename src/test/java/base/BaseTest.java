@@ -1,0 +1,57 @@
+package base;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.HomePage;
+
+public class BaseTest {
+
+    protected WebDriver driver;
+    protected WebDriverWait wait;
+    protected HomePage homePage;
+    protected String email = "qasetesting@gmail.com";
+    protected String pw = "QA123456";
+
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    @BeforeEach
+    public void setUp(){
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        driver = new ChromeDriver(options);
+        wait = new WebDriverWait(driver, 2);
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        driver.get("http://myvip.com/index.php?");
+        driver.manage().window().maximize();
+        homePage = new HomePage(driver);
+        homePage.clickEnLanguageButton();
+    }
+
+    public void doLogin(){
+        homePage.typeEmailAddressFieldLogin(email);
+        homePage.typePasswordFieldLogin(pw);
+        homePage.clickLoginRememberEmailCheckbox();
+        homePage.clickLoginRememberPasswordCheckbox();
+        homePage.clickLoginHiddenCheckbox();
+        homePage.clickLoginLoginButton();}
+
+    @AfterEach
+    public void tearDown(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        driver.quit();
+
+    }}
