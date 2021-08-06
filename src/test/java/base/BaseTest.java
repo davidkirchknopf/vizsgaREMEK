@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.HomePage;
+import org.openqa.selenium.WebDriver;
 
 public class BaseTest {
 
@@ -24,12 +25,13 @@ public class BaseTest {
 
     @BeforeEach
     public void setUp(){
+        options.addArguments("--no-sandbox");
         //WebDriverManager.chromedriver().setup();
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, 2);
-        options.addArguments("--no-sandbox");
+        
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
         options.addArguments("--single-process");
