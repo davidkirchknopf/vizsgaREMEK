@@ -1,0 +1,233 @@
+{
+  "e64b1322839de0a513fcb8d5e88283a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2068d09be2a52fd",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/c2068d09be2a52fd",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x558f9fd0da63 <unknown>\n#1 0x558f9fa82458 <unknown>\n#2 0x558f9faa52e3 <unknown>\n#3 0x558f9faa0e9f <unknown>\n#4 0x558f9fadab72 <unknown>\n#5 0x558f9fad4fd3 <unknown>\n#6 0x558f9faab514 <unknown>\n#7 0x558f9faac505 <unknown>\n#8 0x558f9fd39e2e <unknown>\n#9 0x558f9fd4f886 <unknown>\n#10 0x558f9fd3ad75 <unknown>\n#11 0x558f9fd50d94 <unknown>\n#12 0x558f9fd318eb <unknown>\n#13 0x558f9fd6bcd8 <unknown>\n#14 0x558f9fd6be58 <unknown>\n#15 0x558f9fd85dfd <unknown>\n#16 0x7feca1f25609 start_thread\n",
+      "time" : {
+        "start" : 1628257494881,
+        "stop" : 1628257509209,
+        "duration" : 14328
+      }
+    } ]
+  },
+  "11b0fd7ab1730a39cc9dce74ec59cf53" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f8ba0b7de971de2",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/9f8ba0b7de971de2",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55555a588a63 <unknown>\n#1 0x55555a2fd458 <unknown>\n#2 0x55555a3202e3 <unknown>\n#3 0x55555a31be9f <unknown>\n#4 0x55555a355b72 <unknown>\n#5 0x55555a34ffd3 <unknown>\n#6 0x55555a326514 <unknown>\n#7 0x55555a327505 <unknown>\n#8 0x55555a5b4e2e <unknown>\n#9 0x55555a5ca886 <unknown>\n#10 0x55555a5b5d75 <unknown>\n#11 0x55555a5cbd94 <unknown>\n#12 0x55555a5ac8eb <unknown>\n#13 0x55555a5e6cd8 <unknown>\n#14 0x55555a5e6e58 <unknown>\n#15 0x55555a600dfd <unknown>\n#16 0x7f20ca2ac609 start_thread\n",
+      "time" : {
+        "start" : 1628257518891,
+        "stop" : 1628257522063,
+        "duration" : 3172
+      }
+    } ]
+  },
+  "b771cc58f5c10e9758bde198fa72a2c4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "838e25c209b98564",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/838e25c209b98564",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bcfa2a2a63 <unknown>\n#1 0x55bcfa017458 <unknown>\n#2 0x55bcfa03a2e3 <unknown>\n#3 0x55bcfa035e9f <unknown>\n#4 0x55bcfa06fb72 <unknown>\n#5 0x55bcfa069fd3 <unknown>\n#6 0x55bcfa040514 <unknown>\n#7 0x55bcfa041505 <unknown>\n#8 0x55bcfa2cee2e <unknown>\n#9 0x55bcfa2e4886 <unknown>\n#10 0x55bcfa2cfd75 <unknown>\n#11 0x55bcfa2e5d94 <unknown>\n#12 0x55bcfa2c68eb <unknown>\n#13 0x55bcfa300cd8 <unknown>\n#14 0x55bcfa300e58 <unknown>\n#15 0x55bcfa31adfd <unknown>\n#16 0x7f7dee36e609 start_thread\n",
+      "time" : {
+        "start" : 1628257512536,
+        "stop" : 1628257515708,
+        "duration" : 3172
+      }
+    } ]
+  },
+  "8d6b00b22b78788c0a32a77d271b386b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f076da07d1d1679",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/8f076da07d1d1679",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x558c53fcaa63 <unknown>\n#1 0x558c53d3f458 <unknown>\n#2 0x558c53d622e3 <unknown>\n#3 0x558c53d5de9f <unknown>\n#4 0x558c53d97b72 <unknown>\n#5 0x558c53d91fd3 <unknown>\n#6 0x558c53d68514 <unknown>\n#7 0x558c53d69505 <unknown>\n#8 0x558c53ff6e2e <unknown>\n#9 0x558c5400c886 <unknown>\n#10 0x558c53ff7d75 <unknown>\n#11 0x558c5400dd94 <unknown>\n#12 0x558c53fee8eb <unknown>\n#13 0x558c54028cd8 <unknown>\n#14 0x558c54028e58 <unknown>\n#15 0x558c54042dfd <unknown>\n#16 0x7fcda3998609 start_thread\n",
+      "time" : {
+        "start" : 1628257531580,
+        "stop" : 1628257534753,
+        "duration" : 3173
+      }
+    } ]
+  },
+  "7751b9a85fdd541ec9bcd18c34bec22a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d63747045ed4ecbd",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/d63747045ed4ecbd",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56344c70da63 <unknown>\n#1 0x56344c482458 <unknown>\n#2 0x56344c4a52e3 <unknown>\n#3 0x56344c4a0e9f <unknown>\n#4 0x56344c4dab72 <unknown>\n#5 0x56344c4d4fd3 <unknown>\n#6 0x56344c4ab514 <unknown>\n#7 0x56344c4ac505 <unknown>\n#8 0x56344c739e2e <unknown>\n#9 0x56344c74f886 <unknown>\n#10 0x56344c73ad75 <unknown>\n#11 0x56344c750d94 <unknown>\n#12 0x56344c7318eb <unknown>\n#13 0x56344c76bcd8 <unknown>\n#14 0x56344c76be58 <unknown>\n#15 0x56344c785dfd <unknown>\n#16 0x7f031b3e4609 start_thread\n",
+      "time" : {
+        "start" : 1628257522084,
+        "stop" : 1628257525237,
+        "duration" : 3153
+      }
+    } ]
+  },
+  "bdb9eb29f2adee4f1d6dbd1692ef7abf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af0e9f8ad8a252a5",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/af0e9f8ad8a252a5",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x556de4405a63 <unknown>\n#1 0x556de417a458 <unknown>\n#2 0x556de419d2e3 <unknown>\n#3 0x556de4198e9f <unknown>\n#4 0x556de41d2b72 <unknown>\n#5 0x556de41ccfd3 <unknown>\n#6 0x556de41a3514 <unknown>\n#7 0x556de41a4505 <unknown>\n#8 0x556de4431e2e <unknown>\n#9 0x556de4447886 <unknown>\n#10 0x556de4432d75 <unknown>\n#11 0x556de4448d94 <unknown>\n#12 0x556de44298eb <unknown>\n#13 0x556de4463cd8 <unknown>\n#14 0x556de4463e58 <unknown>\n#15 0x556de447ddfd <unknown>\n#16 0x7f52515ca609 start_thread\n",
+      "time" : {
+        "start" : 1628257509313,
+        "stop" : 1628257512526,
+        "duration" : 3213
+      }
+    } ]
+  },
+  "65c8f1dfb4662e2b534298a10dd4a1a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3526f748cfc97f11",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/3526f748cfc97f11",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55be03caea63 <unknown>\n#1 0x55be03a23458 <unknown>\n#2 0x55be03a462e3 <unknown>\n#3 0x55be03a41e9f <unknown>\n#4 0x55be03a7bb72 <unknown>\n#5 0x55be03a75fd3 <unknown>\n#6 0x55be03a4c514 <unknown>\n#7 0x55be03a4d505 <unknown>\n#8 0x55be03cdae2e <unknown>\n#9 0x55be03cf0886 <unknown>\n#10 0x55be03cdbd75 <unknown>\n#11 0x55be03cf1d94 <unknown>\n#12 0x55be03cd28eb <unknown>\n#13 0x55be03d0ccd8 <unknown>\n#14 0x55be03d0ce58 <unknown>\n#15 0x55be03d26dfd <unknown>\n#16 0x7f518fbe0609 start_thread\n",
+      "time" : {
+        "start" : 1628257534765,
+        "stop" : 1628257537923,
+        "duration" : 3158
+      }
+    } ]
+  },
+  "f57a58b176ccfdcf5efb02ca8518c7e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff76324c555fc0c2",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/ff76324c555fc0c2",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a736b29a63 <unknown>\n#1 0x55a73689e458 <unknown>\n#2 0x55a7368c12e3 <unknown>\n#3 0x55a7368bce9f <unknown>\n#4 0x55a7368f6b72 <unknown>\n#5 0x55a7368f0fd3 <unknown>\n#6 0x55a7368c7514 <unknown>\n#7 0x55a7368c8505 <unknown>\n#8 0x55a736b55e2e <unknown>\n#9 0x55a736b6b886 <unknown>\n#10 0x55a736b56d75 <unknown>\n#11 0x55a736b6cd94 <unknown>\n#12 0x55a736b4d8eb <unknown>\n#13 0x55a736b87cd8 <unknown>\n#14 0x55a736b87e58 <unknown>\n#15 0x55a736ba1dfd <unknown>\n#16 0x7f6a0ccaf609 start_thread\n",
+      "time" : {
+        "start" : 1628257525261,
+        "stop" : 1628257528413,
+        "duration" : 3152
+      }
+    } ]
+  },
+  "76208c61ac948d8a44424c69c8ec2417" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ef68181301e3e83",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/7ef68181301e3e83",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bb39abba63 <unknown>\n#1 0x55bb39830458 <unknown>\n#2 0x55bb398532e3 <unknown>\n#3 0x55bb3984ee9f <unknown>\n#4 0x55bb39888b72 <unknown>\n#5 0x55bb39882fd3 <unknown>\n#6 0x55bb39859514 <unknown>\n#7 0x55bb3985a505 <unknown>\n#8 0x55bb39ae7e2e <unknown>\n#9 0x55bb39afd886 <unknown>\n#10 0x55bb39ae8d75 <unknown>\n#11 0x55bb39afed94 <unknown>\n#12 0x55bb39adf8eb <unknown>\n#13 0x55bb39b19cd8 <unknown>\n#14 0x55bb39b19e58 <unknown>\n#15 0x55bb39b33dfd <unknown>\n#16 0x7f388e7a4609 start_thread\n",
+      "time" : {
+        "start" : 1628257537935,
+        "stop" : 1628257541072,
+        "duration" : 3137
+      }
+    } ]
+  },
+  "a9356c0f79353c1179cdfb40fc3e6d3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e8eab16bdc80671",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/1e8eab16bdc80671",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5624cfec0a63 <unknown>\n#1 0x5624cfc35458 <unknown>\n#2 0x5624cfc582e3 <unknown>\n#3 0x5624cfc53e9f <unknown>\n#4 0x5624cfc8db72 <unknown>\n#5 0x5624cfc87fd3 <unknown>\n#6 0x5624cfc5e514 <unknown>\n#7 0x5624cfc5f505 <unknown>\n#8 0x5624cfeece2e <unknown>\n#9 0x5624cff02886 <unknown>\n#10 0x5624cfeedd75 <unknown>\n#11 0x5624cff03d94 <unknown>\n#12 0x5624cfee48eb <unknown>\n#13 0x5624cff1ecd8 <unknown>\n#14 0x5624cff1ee58 <unknown>\n#15 0x5624cff38dfd <unknown>\n#16 0x7f299da65609 start_thread\n",
+      "time" : {
+        "start" : 1628257528429,
+        "stop" : 1628257531572,
+        "duration" : 3143
+      }
+    } ]
+  },
+  "a5eb3c6c76ece71fe6585718f6f85d6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96750ebd1143e0ea",
+      "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/1//#testresult/96750ebd1143e0ea",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-521', ip: '10.1.0.45', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bbc3eaca63 <unknown>\n#1 0x55bbc3c21458 <unknown>\n#2 0x55bbc3c442e3 <unknown>\n#3 0x55bbc3c3fe9f <unknown>\n#4 0x55bbc3c79b72 <unknown>\n#5 0x55bbc3c73fd3 <unknown>\n#6 0x55bbc3c4a514 <unknown>\n#7 0x55bbc3c4b505 <unknown>\n#8 0x55bbc3ed8e2e <unknown>\n#9 0x55bbc3eee886 <unknown>\n#10 0x55bbc3ed9d75 <unknown>\n#11 0x55bbc3eefd94 <unknown>\n#12 0x55bbc3ed08eb <unknown>\n#13 0x55bbc3f0acd8 <unknown>\n#14 0x55bbc3f0ae58 <unknown>\n#15 0x55bbc3f24dfd <unknown>\n#16 0x7f54cb115609 start_thread\n",
+      "time" : {
+        "start" : 1628257515729,
+        "stop" : 1628257518873,
+        "duration" : 3144
+      }
+    } ]
+  }
+}
