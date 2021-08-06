@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class='menu-item-logout-inner menu-link-text']\n\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-527', ip: '10.1.0.97', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.nF4O72}, goog:chromeOptions: {debuggerAddress: localhost:46309}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0a7cdc40b1dc2f9ee9242fe9dba54e1\n*** Element info: {Using=xpath, value=//span[@class='menu-item-logout-inner menu-link-text']\n}",
+      "children" : [ {
+        "name" : "LogOutTest()",
+        "uid" : "32f59d04daa3f639",
+        "parentUid" : "0328d06e2024526cda93fe08abccb5c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285844302,
+          "stop" : 1628285858940,
+          "duration" : 14638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0328d06e2024526cda93fe08abccb5c0"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[.='Profile']\n\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-527', ip: '10.1.0.97', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.RK5czW}, goog:chromeOptions: {debuggerAddress: localhost:41523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 843f590c7d2ac25a3128813c0e28ee82\n*** Element info: {Using=xpath, value=//span[.='Profile']\n}",
+      "children" : [ {
+        "name" : "ModificationTest()",
+        "uid" : "82eda9cf1542b034",
+        "parentUid" : "7dd295be54635059efb422875b8460ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285934122,
+          "stop" : 1628285949513,
+          "duration" : 15391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7dd295be54635059efb422875b8460ec"
+    }, {
+      "name" : "element click intercepted: Element <span class=\"btn-text\">...</span> is not clickable at point (576, 550). Other element would receive the click: <a class=\"cc_logo\" target=\"_blank\" href=\"http://silktide.com/cookieconsent\">...</a>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-527', ip: '10.1.0.97', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.HYSneR}, goog:chromeOptions: {debuggerAddress: localhost:41433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1870cb380139d97ece8f16d5c185d724",
+      "children" : [ {
+        "name" : "Registration()",
+        "uid" : "85cc1dfe7287402d",
+        "parentUid" : "fcbeecec0aeabbc15f34d1bf8e9de0d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628285971759,
+          "stop" : 1628285987065,
+          "duration" : 15306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcbeecec0aeabbc15f34d1bf8e9de0d4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
