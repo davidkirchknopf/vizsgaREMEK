@@ -13,6 +13,8 @@ public class RegTest extends BaseTest {
         Util.TakeScreenshot(driver);
         homePage.clickRegistrationButton();
         Util.TakeScreenshot(driver);
+        homePage.clickOnAcceptCookie();
+        Util.TakeScreenshot(driver);
         homePage.typeInLastNameField();
         Util.TakeScreenshot(driver);
         homePage.typeInFirstNameField();

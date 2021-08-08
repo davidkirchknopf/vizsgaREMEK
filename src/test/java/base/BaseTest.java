@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.HomePage;
 import org.openqa.selenium.WebDriver;
+import pages.ProfilePage;
+import util.Util;
 
 public class BaseTest {
 
@@ -28,7 +30,6 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         //System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
         ChromeOptions options = new ChromeOptions();
-        
         options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
         //options.setExperimentalOption("useAutomationExtension", false);
         //options.addArguments("disable-infobars");
@@ -46,12 +47,15 @@ public class BaseTest {
     }
 
     public void doLogin(){
+        Util util = new Util(driver, wait);
         homePage.typeEmailAddressFieldLogin(email);
         homePage.typePasswordFieldLogin(pw);
         homePage.clickLoginRememberEmailCheckbox();
         homePage.clickLoginRememberPasswordCheckbox();
         homePage.clickLoginHiddenCheckbox();
-        homePage.clickLoginLoginButton();}
+        homePage.clickLoginLoginButton();
+        util.clickOnHANDLE_TOO_MANY_LOGIN();
+    }
 
     @AfterEach
     public void tearDown(){

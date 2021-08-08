@@ -16,6 +16,7 @@ public class HomePage
 
     private final By registrationButton = By.xpath("//*[@id='index_panel_id_login']/div[1]/div[1]/a/span[1]");
     private final By enLanguageButton = By.xpath("//div[8]/a[2]");
+    private final By ACCEPT_COOKIE_BUTTON = By.xpath("/html/body/div[1]/div/a[1]");
     private final By lastNameField = By.xpath("//*[@id='formrow_rform_reg_lastname']/div/div[2]/span/input");
     private final By firstNameField = By.xpath("//*[@id='formrow_rform_reg_firstname']/div/div[2]/span/input");
     private final By mailAddressField = By.xpath("//*[@id='formrow_rform_reg_email']/div/div[2]/span/input");
@@ -44,6 +45,9 @@ public class HomePage
     public void clickEnLanguageButton(){
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(enLanguageButton).click();
+    }
+    public void clickOnAcceptCookie(){
+        driver.findElement(ACCEPT_COOKIE_BUTTON).click();
     }
     public void typeInLastNameField(){
         driver.findElement(lastNameField).sendKeys("QA");

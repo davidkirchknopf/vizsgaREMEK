@@ -50,7 +50,7 @@ public class ProfilePage {
     public void clickOnProfileMainButton(){
         driver.findElement(profileMainButton).click();
     }
-    public void repeatedMultiInputSearch() {
+    public void repeatedMultiInputText() {
         String[] dataItem;
         for (int i = 0; i < 15; i++) {
             try {

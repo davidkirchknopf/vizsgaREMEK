@@ -3,12 +3,23 @@ package util;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.ByteArrayInputStream;
+import java.util.NoSuchElementException;
 
 public class Util {
 
+    private final WebDriver driver;
+    private final WebDriverWait wait;
 
+    public Util(WebDriver driver, WebDriverWait wait) {
+        this.driver = driver;
+        this.wait = wait;
+    }
+
+    private final By HANDLE_TOO_MANY_LOGIN = By.xpath("//span[@class='btn-symbol symbol symbol-pipeyes']");
     public static void scrollUp(WebDriver driver, By locator){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, -400)");
@@ -23,6 +34,16 @@ public class Util {
         Thread.sleep(time);
     }
 
+    public boolean clickOnHANDLE_TOO_MANY_LOGIN(){
+        try{
+            WebDriverWait wait = new WebDriverWait(driver, 5);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(HANDLE_TOO_MANY_LOGIN));
+            driver.findElement(HANDLE_TOO_MANY_LOGIN).click();
+        }catch (NoSuchElementException e){
+            return false;
+        }
+        return true;
+    }
     public static void deleteAds(WebDriver driver){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("var ads=document.getElementsByTagName('ins');"

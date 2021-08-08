@@ -17,7 +17,7 @@ public class DataInputFromSourceTest extends BaseTest {
         ProfilePage profilePage = new ProfilePage(driver, wait);
         Util.TakeScreenshot(driver);
         profilePage.clickOnProfileMainButton();
-        profilePage.repeatedMultiInputSearch();
+        profilePage.repeatedMultiInputText();
         profilePage.clickOnShareButton();
         assertTrue(profilePage.clickOnDeleteEntryFromWallButton());
     }
