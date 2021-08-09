@@ -1,0 +1,87 @@
+{
+  "uid" : "de5f8778ee85bdca",
+  "name" : "WritingAMessageTest()",
+  "fullName" : "newDataInput.InputNewDataTest.WritingAMessageTest",
+  "historyId" : "28eddc0c4319a604ae56611d784369cc",
+  "time" : {
+    "start" : 1628511957578,
+    "stop" : 1628511985699,
+    "duration" : 28121
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628511957580,
+      "stop" : 1628511963391,
+      "duration" : 5811
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628511982628,
+      "stop" : 1628511985699,
+      "duration" : 3071
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-184"
+  }, {
+    "name" : "thread",
+    "value" : "2912@fv-az74-184.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "newDataInput.InputNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "newDataInput.InputNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "WritingAMessageTest"
+  }, {
+    "name" : "suite",
+    "value" : "newDataInput.InputNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de5f8778ee85bdca.json",
+  "parameterValues" : [ ]
+}

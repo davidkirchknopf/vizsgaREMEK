@@ -1,0 +1,111 @@
+[ {
+  "uid" : "2ea6346b0889381b",
+  "name" : "StatementReadingSavingTest()",
+  "time" : {
+    "start" : 1628512053530,
+    "stop" : 1628512064205,
+    "duration" : 10675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeb6537c786ec804",
+  "name" : "ClickingWhomCouldIKnowTest()",
+  "time" : {
+    "start" : 1628511866049,
+    "stop" : 1628511905536,
+    "duration" : 39487
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f81fcdffd3794066",
+  "name" : "LoginTesting()",
+  "time" : {
+    "start" : 1628512042001,
+    "stop" : 1628512053523,
+    "duration" : 11522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e99df9804687337",
+  "name" : "RegistrationTest()",
+  "time" : {
+    "start" : 1628512064208,
+    "stop" : 1628512083749,
+    "duration" : 19541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de5f8778ee85bdca",
+  "name" : "WritingAMessageTest()",
+  "time" : {
+    "start" : 1628511957578,
+    "stop" : 1628511985699,
+    "duration" : 28121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63e73d9d6bb14b53",
+  "name" : "ModificationOurProfilTest()",
+  "time" : {
+    "start" : 1628511916095,
+    "stop" : 1628511937546,
+    "duration" : 21451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7904fbd001e0f85",
+  "name" : "SearchingForFriendsAdvancedTest()",
+  "time" : {
+    "start" : 1628511985710,
+    "stop" : 1628512014330,
+    "duration" : 28620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dbd3c04fcff50b2",
+  "name" : "ShareSomethingOnTheWallTest()",
+  "time" : {
+    "start" : 1628511865920,
+    "stop" : 1628511898975,
+    "duration" : 33055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e38dfb2a7ce46ad",
+  "name" : "PictureUploadAndDeleteTesting()",
+  "time" : {
+    "start" : 1628512014345,
+    "stop" : 1628512041989,
+    "duration" : 27644
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c8c7773e98d4701",
+  "name" : "LoggingOutTest()",
+  "time" : {
+    "start" : 1628511899073,
+    "stop" : 1628511916090,
+    "duration" : 17017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb549984fc3957c1",
+  "name" : "DownloadAgisInformationTesting()",
+  "time" : {
+    "start" : 1628511937554,
+    "stop" : 1628511957573,
+    "duration" : 20019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

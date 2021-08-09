@@ -1,0 +1,87 @@
+{
+  "uid" : "f7904fbd001e0f85",
+  "name" : "SearchingForFriendsAdvancedTest()",
+  "fullName" : "severalPagesAccessing.turnOverTest.SearchingForFriendsAdvancedTest",
+  "historyId" : "d8e5711c0d6dd03eb3a6b644a9ab28b",
+  "time" : {
+    "start" : 1628511985710,
+    "stop" : 1628512014330,
+    "duration" : 28620
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628511985711,
+      "stop" : 1628511991404,
+      "duration" : 5693
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628512011257,
+      "stop" : 1628512014330,
+      "duration" : 3073
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-184"
+  }, {
+    "name" : "thread",
+    "value" : "2912@fv-az74-184.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "testClass",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchingForFriendsAdvancedTest"
+  }, {
+    "name" : "suite",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7904fbd001e0f85.json",
+  "parameterValues" : [ ]
+}

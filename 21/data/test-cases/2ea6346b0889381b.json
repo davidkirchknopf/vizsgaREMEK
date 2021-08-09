@@ -1,0 +1,87 @@
+{
+  "uid" : "2ea6346b0889381b",
+  "name" : "StatementReadingSavingTest()",
+  "fullName" : "privacyStatementUsage.StatementTest.StatementReadingSavingTest",
+  "historyId" : "9af8ffec4b3c85c3f035c2cd68a84576",
+  "time" : {
+    "start" : 1628512053530,
+    "stop" : 1628512064205,
+    "duration" : 10675
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628512053530,
+      "stop" : 1628512058854,
+      "duration" : 5324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628512061136,
+      "stop" : 1628512064205,
+      "duration" : 3069
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-184"
+  }, {
+    "name" : "thread",
+    "value" : "2912@fv-az74-184.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacyStatementUsage.StatementTest"
+  }, {
+    "name" : "testClass",
+    "value" : "privacyStatementUsage.StatementTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "StatementReadingSavingTest"
+  }, {
+    "name" : "suite",
+    "value" : "privacyStatementUsage.StatementTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ea6346b0889381b.json",
+  "parameterValues" : [ ]
+}
