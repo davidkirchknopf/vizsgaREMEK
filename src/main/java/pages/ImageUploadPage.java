@@ -34,15 +34,25 @@ public class ImageUploadPage {
     }
 
     public String getFolderNumber() {
-       return driver.findElement(FOLDER_SPAN).getText();
+        return driver.findElement(FOLDER_SPAN).getText();
     }
 
-    public void uploadpicture(){WebElement addFile = driver.findElement(IMAGE_SELECTING_BUTTON);
-        addFile.sendKeys(file.getAbsolutePath());}
-    public void clickOnUploadButton(){ driver.findElement(IMAGE_UPLOAD_BUTTON).click();}
-    public void clickOnFolder(){ driver.findElement(FOLDER_BUTTON).click();}
-    public void clickOnImageDeletingButton(){
+    public void uploadpicture() {
+        WebElement addFile = driver.findElement(IMAGE_SELECTING_BUTTON);
+        addFile.sendKeys(file.getAbsolutePath());
+    }
+
+    public void clickOnUploadButton() {
+        driver.findElement(IMAGE_UPLOAD_BUTTON).click();
+    }
+
+    public void clickOnFolder() {
+        driver.findElement(FOLDER_BUTTON).click();
+    }
+
+    public void clickOnImageDeletingButton() {
         driver.findElement(DELETING_IMAGE_BUTTON).click();
-        driver.switchTo().alert().accept();}
+        driver.switchTo().alert().accept();
+    }
 
 }

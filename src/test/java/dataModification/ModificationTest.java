@@ -11,15 +11,16 @@ public class ModificationTest extends BaseTest {
 
     @Test
     public void ModificationOurProfilTest() {
-            doLogin();
-            ProfilePage profilePage = new ProfilePage(driver, wait);
-            Util.TakeScreenshot(driver);
-            profilePage.clickOnProfileMainButton();
-            profilePage.clickOnProfileEditButton();
-            profilePage.interactProfileEditIntroducationField();
-            profilePage.clickOnProfileSaveButton();
-            profilePage.clickOnProfileMainButton();
-            profilePage.clickOnprofilProfilButton();
-            assertEquals(profilePage.getRandomString(), profilePage.getIntroductionText());
+        doLogin();
+        ProfilePage profilePage = new ProfilePage(driver, wait);
+        Util.TakeScreenshot(driver);
+        profilePage.clickOnProfileMainButton();
+        profilePage.clickOnProfileEditButton();
+        profilePage.interactProfileEditIntroducationField();
+        profilePage.clickOnProfileSaveButton();
+        profilePage.clickOnProfileMainButton();
+        profilePage.clickOnprofilProfilButton();
+        Util.TakeScreenshot(driver);
+        assertEquals(profilePage.getRandomString(), profilePage.getIntroductionText());
     }
 }

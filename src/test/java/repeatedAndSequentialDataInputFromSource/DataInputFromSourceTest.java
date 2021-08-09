@@ -12,13 +12,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DataInputFromSourceTest extends BaseTest {
 
     @Test
-    public void ShareSomethingOnTheWallTest(){
+    public void ShareSomethingOnTheWallTest() {
         doLogin();
+        Util.TakeScreenshot(driver);
         ProfilePage profilePage = new ProfilePage(driver, wait);
         Util.TakeScreenshot(driver);
         profilePage.clickOnProfileMainButton();
         profilePage.repeatedMultiInputText();
         profilePage.clickOnShareButton();
+        Util.TakeScreenshot(driver);
         assertTrue(profilePage.clickOnDeleteEntryFromWallButton());
     }
 }

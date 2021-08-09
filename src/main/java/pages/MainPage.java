@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class MainPage {
 
     private WebDriver driver;
+
     public MainPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -14,14 +15,17 @@ public class MainPage {
     private final By LOGOUT_BUTTON = By.xpath("//span[@class='menu-item-logout-inner menu-link-text']\n");
 
     public WhomCouldIKnowPage clickWhomCouldIKnow() {
-        try { driver.findElement(By.xpath("//*[@id=\"dismiss-button\"]\n")).click();
-        } catch(Exception e){
+        try {
+            driver.findElement(By.xpath("//*[@id=\"dismiss-button\"]\n")).click();
+        } catch (Exception e) {
         }
         driver.findElement(WHOM_COULD_I_KNOW_BUTTON).click();
         return new WhomCouldIKnowPage(driver);
-        }
+    }
 
-    public void clickOnLogoutButton(){ driver.findElement(LOGOUT_BUTTON).click();}
+    public void clickOnLogoutButton() {
+        driver.findElement(LOGOUT_BUTTON).click();
+    }
 
 }
 

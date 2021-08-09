@@ -13,9 +13,12 @@ public class MyVIPAgiPage {
         this.driver = driver;
         this.wait = wait;
     }
+
     private final By MESSAGE_TO_AGI_NEW_PAGE_BUTTON = By.xpath("//span[.='message']");
     public static final By agisInfosField = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/ul/li[3]");
 
-    public void clickOnNewPageAgiMessage(){ driver.findElement(MESSAGE_TO_AGI_NEW_PAGE_BUTTON).click();}
+    public void clickOnNewPageAgiMessage() {
+        driver.findElement(MESSAGE_TO_AGI_NEW_PAGE_BUTTON).click();
+    }
 
 }

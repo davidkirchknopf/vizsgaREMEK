@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -17,6 +18,7 @@ public class ProfilePage {
         this.driver = driver;
         this.wait = wait;
     }
+
     private final By PROFILE_MAIN_BUTTON = By.xpath("//div[4]/div/a[1]");
     private final By POST_A_MESSAGE_ON_THE_WALL_FIELD = By.xpath("//*[@id=\"entry_share_form\"]/div[1]/span/textarea");
     private final By SHARE_BUTTON = By.xpath("//*[@id=\"entry_share_form\"]/div[3]/span[2]/a/span[2]");
@@ -34,22 +36,24 @@ public class ProfilePage {
 
     private String randomString;
 
-    public String randomString(){
+    public String randomString() {
         int max = 90;
         int min = 65;
         int range = max - min + 1;
         String randomString = "";
         for (int i = 0; i < 10; i++) {
-            int randomNumber = (int)(Math.random() * range) + min;
-            char randomChar = (char)randomNumber;
-            randomString += randomChar;}
+            int randomNumber = (int) (Math.random() * range) + min;
+            char randomChar = (char) randomNumber;
+            randomString += randomChar;
+        }
         this.randomString = randomString;
         return randomString;
     }
 
-    public void clickOnProfileMainButton(){
+    public void clickOnProfileMainButton() {
         driver.findElement(PROFILE_MAIN_BUTTON).click();
     }
+
     public void repeatedMultiInputText() {
         String[] dataItem;
         for (int i = 0; i < 15; i++) {
@@ -66,38 +70,46 @@ public class ProfilePage {
             }
         }
     }
-    public void clickOnShareButton(){
+
+    public void clickOnShareButton() {
         driver.findElement(SHARE_BUTTON).click();
     }
-    public boolean clickOnDeleteEntryFromWallButton(){
-        try{
+
+    public boolean clickOnDeleteEntryFromWallButton() {
+        try {
             WebDriverWait wait = new WebDriverWait(driver, 5);
             wait.until(ExpectedConditions.visibilityOfElementLocated(DELETE_ENTRY_FROM_WALL_BUTTON));
             driver.findElement(DELETE_ENTRY_FROM_WALL_BUTTON);
-        }catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
         return true;
     }
-    public void clickOnProfileEditButton(){
-        driver.findElement(EDIT_PROFILE_BUTTON).click(); }
 
-    public void interactProfileEditIntroducationField() { driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD);
+    public void clickOnProfileEditButton() {
+        driver.findElement(EDIT_PROFILE_BUTTON).click();
+    }
+
+    public void interactProfileEditIntroducationField() {
+        driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD);
         driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).click();
         driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).clear();
         driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).sendKeys(randomString());
     }
 
-    public void clickOnProfileSaveButton(){
-        driver.findElement(SAVE_PROFILE_BUTTON).click();}
+    public void clickOnProfileSaveButton() {
+        driver.findElement(SAVE_PROFILE_BUTTON).click();
+    }
 
-    public void clickOnprofilProfilButton(){
+    public void clickOnprofilProfilButton() {
         driver.findElement(PROFIL_PROFIL_BUTTON).click();
     }
-    public String getIntroductionText(){
+
+    public String getIntroductionText() {
         return driver.findElement(PROFILE_INTRODUCUTION).getText();
     }
-    public void clickOnPhotosPage(){
+
+    public void clickOnPhotosPage() {
         driver.findElement(PHOTOS_PAGE_BUTTON).click();
     }
 }

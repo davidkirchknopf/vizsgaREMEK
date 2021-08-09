@@ -16,6 +16,8 @@ public class ImagesPage {
 
     private final By IMAGE_UPLOADING_BUTTON = By.xpath("//span[.='feltöltés ide']");
 
-    public void clickOnImageUploadingButton(){ driver.findElement(IMAGE_UPLOADING_BUTTON).click();}
+    public void clickOnImageUploadingButton() {
+        driver.findElement(IMAGE_UPLOADING_BUTTON).click();
+    }
 
 }

@@ -4,14 +4,17 @@ import base.BaseTest;
 import org.junit.jupiter.api.Test;
 import pages.MessagesPage;
 import pages.MyVIPAgiPage;
+import util.Util;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class InputNewDataTest extends BaseTest {
 
 
     @Test
-    public void WritingAMessageTest(){
+    public void WritingAMessageTest() {
         doLogin();
+        Util.TakeScreenshot(driver);
         MessagesPage messagesPage = new MessagesPage(driver, wait);
         MyVIPAgiPage myVIPAgiPage = new MyVIPAgiPage(driver, wait);
         messagesPage.clickOnMessagesMainButton();
@@ -24,6 +27,7 @@ public class InputNewDataTest extends BaseTest {
         messagesPage.getOutFromIframe();
         messagesPage.clickOnSendTheMessageButton();
         messagesPage.clickOnsendedMessagesButton();
+        Util.TakeScreenshot(driver);
         assertTrue(driver.getPageSource().contains("CodeCool"));
     }
 }

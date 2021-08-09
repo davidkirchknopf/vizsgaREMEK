@@ -13,6 +13,7 @@ public class turnOverTest extends BaseTest {
     @Test
     public void SearchingForFriendsAdvancedTest() throws InterruptedException {
         doLogin();
+        Util.TakeScreenshot(driver);
         FriendsPage friendsPage = new FriendsPage(driver, wait);
         friendsPage.clickToFriendsMainButton();
         Util.deleteAds(driver);
@@ -28,6 +29,7 @@ public class turnOverTest extends BaseTest {
         friendsPage.clickOnPageSecond();
         friendsPage.clickOnPageLast();
         friendsPage.clickOnPagePreviousOne();
+        Util.TakeScreenshot(driver);
         assertEquals("rgba(21, 122, 27, 1)", friendsPage.getOnPageSecondColor());
     }
 }

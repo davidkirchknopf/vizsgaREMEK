@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.MessagesPage;
 import pages.MyVIPAgiPage;
+import util.Util;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -15,12 +16,14 @@ public class DownloadAgisInformationTest extends BaseTest {
 
 
     @Test
-    public void DownloadAgisInformationTesting(){
+    public void DownloadAgisInformationTesting() {
         doLogin();
+        Util.TakeScreenshot(driver);
         MessagesPage messagesPage = new MessagesPage(driver, wait);
         MyVIPAgiPage myVIPAgiPage = new MyVIPAgiPage(driver, wait);
         messagesPage.clickOnMessagesMainButton();
         messagesPage.clickOnIncommingMessageFromAgi();
+        Util.TakeScreenshot(driver);
         try {
             FileWriter fileWriter = new FileWriter("AgisProfilInformation.txt");
             fileWriter.append(driver.findElement(MyVIPAgiPage.agisInfosField).getText());

@@ -14,6 +14,7 @@ public class PictureUploadAndDeleteTest extends BaseTest {
     @Test
     public void PictureUploadAndDeleteTesting() throws InterruptedException {
         doLogin();
+        Util.TakeScreenshot(driver);
         ProfilePage profilePage = new ProfilePage(driver, wait);
         ImagesPage imagesPage = new ImagesPage(driver, wait);
         ImageUploadPage imageUploadPage = new ImageUploadPage(driver, wait);
@@ -22,6 +23,7 @@ public class PictureUploadAndDeleteTest extends BaseTest {
         imagesPage.clickOnImageUploadingButton();
         imageUploadPage.uploadpicture();
         imageUploadPage.clickOnUploadButton();
+        Util.TakeScreenshot(driver);
         imageUploadPage.clickOnFolder();
         imageUploadPage.clickOnImageDeletingButton();
         Util.waitForXMillis(2000);

@@ -25,27 +25,46 @@ public class MessagesPage {
     private final By SENDED_MESSAGES_BUTTON = By.xpath("//*[@id=\"messagescont\"]/div/div[1]/div/div[2]/ul/li[4]/a");
 
 
-    public void clickOnFriendsMainButton(){ driver.findElement(FRIENDS_MAIN_BUTTON).click();}
-    public void clickOnMessagesMainButton(){
+    public void clickOnFriendsMainButton() {
+        driver.findElement(FRIENDS_MAIN_BUTTON).click();
+    }
+
+    public void clickOnMessagesMainButton() {
         Util.clickElement(driver, MY_MESSAGES_MAIN_BUTTON);
     }
-    public void clickOnIncommingMessageFromAgi(){ driver.findElement(INCOMING_MESSAGE_FROM_VIP_AGI).click();}
 
-    public void clickInSubjectField(){ driver.findElement(NEW_MESSAGE_SUBJECT_FIELD).click();}
+    public void clickOnIncommingMessageFromAgi() {
+        driver.findElement(INCOMING_MESSAGE_FROM_VIP_AGI).click();
+    }
 
-    public void typeInSubjectField(String keyWord){
+    public void clickInSubjectField() {
+        driver.findElement(NEW_MESSAGE_SUBJECT_FIELD).click();
+    }
+
+    public void typeInSubjectField(String keyWord) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.presenceOfElementLocated(NEW_MESSAGE_SUBJECT_FIELD));
         driver.findElement(NEW_MESSAGE_SUBJECT_FIELD).sendKeys(keyWord);
     }
-    public void clickIframeMessageField(){driver.switchTo().frame("msgtextarea_ifr");}
-    public void typeInTextFieldNewMessage(String keyWord){
+
+    public void clickIframeMessageField() {
+        driver.switchTo().frame("msgtextarea_ifr");
+    }
+
+    public void typeInTextFieldNewMessage(String keyWord) {
         driver.findElement(By.xpath("//*[@id=\"tinymce\"]")).sendKeys(keyWord);
     }
-    public void getOutFromIframe(){
+
+    public void getOutFromIframe() {
         driver.switchTo().defaultContent();
     }
-    public void clickOnSendTheMessageButton(){ driver.findElement(SEND_MESSAGE_BUTTON).click();}
-    public void clickOnsendedMessagesButton(){ driver.findElement(SENDED_MESSAGES_BUTTON).click();}
+
+    public void clickOnSendTheMessageButton() {
+        driver.findElement(SEND_MESSAGE_BUTTON).click();
     }
+
+    public void clickOnsendedMessagesButton() {
+        driver.findElement(SENDED_MESSAGES_BUTTON).click();
+    }
+}
 

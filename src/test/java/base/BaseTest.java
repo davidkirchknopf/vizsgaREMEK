@@ -26,7 +26,7 @@ public class BaseTest {
     }
 
     @BeforeEach
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         //System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
         ChromeOptions options = new ChromeOptions();
@@ -37,7 +37,7 @@ public class BaseTest {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
         //options.addArguments("--single-process");
-        
+
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, 2);
         driver.get("http://myvip.com/index.php?");
@@ -46,7 +46,7 @@ public class BaseTest {
         homePage.clickEnLanguageButton();
     }
 
-    public void doLogin(){
+    public void doLogin() {
         Util util = new Util(driver, wait);
         homePage.typeEmailAddressFieldLogin(email);
         homePage.typePasswordFieldLogin(pw);
@@ -58,7 +58,7 @@ public class BaseTest {
     }
 
     @AfterEach
-    public void tearDown(){
+    public void tearDown() {
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
