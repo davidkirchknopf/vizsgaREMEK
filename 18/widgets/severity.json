@@ -1,0 +1,111 @@
+[ {
+  "uid" : "91f3d8223d062060",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628501816150,
+    "stop" : 1628501832785,
+    "duration" : 16635
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "78b5c93769aadf25",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628501864294,
+    "stop" : 1628501875942,
+    "duration" : 11648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "581e0b87af56f03",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628501875946,
+    "stop" : 1628501886828,
+    "duration" : 10882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4b94bce2146e60b",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628501768121,
+    "stop" : 1628501783799,
+    "duration" : 15678
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c3dc78007cf4751",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628501848490,
+    "stop" : 1628501864275,
+    "duration" : 15785
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "90f1c553d3557df9",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628501886834,
+    "stop" : 1628501906597,
+    "duration" : 19763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "908a45c04ef36c0d",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628501832800,
+    "stop" : 1628501848485,
+    "duration" : 15685
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "84871ce23a42480a",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628501799548,
+    "stop" : 1628501816143,
+    "duration" : 16595
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c1b57865d99f5e71",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628501783818,
+    "stop" : 1628501799538,
+    "duration" : 15720
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b00778867a7583a5",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628501747361,
+    "stop" : 1628501768108,
+    "duration" : 20747
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "751930c346e9d96b",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628501724655,
+    "stop" : 1628501747261,
+    "duration" : 22606
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

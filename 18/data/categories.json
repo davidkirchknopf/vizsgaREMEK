@@ -1,0 +1,117 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"alertPopup\"]/div[2]/div/div/div/div[2]/div[2]/div/a/span[2] (tried for 1 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "DataInputFromSource()",
+        "uid" : "751930c346e9d96b",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501724655,
+          "stop" : 1628501747261,
+          "duration" : 22606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickingWhomCouldIKnow()",
+        "uid" : "b00778867a7583a5",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501747361,
+          "stop" : 1628501768108,
+          "duration" : 20747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LogOutTest()",
+        "uid" : "b4b94bce2146e60b",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501768121,
+          "stop" : 1628501783799,
+          "duration" : 15678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ModificationTest()",
+        "uid" : "c1b57865d99f5e71",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501783818,
+          "stop" : 1628501799538,
+          "duration" : 15720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DownloadAgisInformation()",
+        "uid" : "84871ce23a42480a",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501799548,
+          "stop" : 1628501816143,
+          "duration" : 16595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "writeANewMessage()",
+        "uid" : "91f3d8223d062060",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501816150,
+          "stop" : 1628501832785,
+          "duration" : 16635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchingForFriends()",
+        "uid" : "908a45c04ef36c0d",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501832800,
+          "stop" : 1628501848485,
+          "duration" : 15685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ModificationTest()",
+        "uid" : "2c3dc78007cf4751",
+        "parentUid" : "55891298fd988c300869b7fcf046e3f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628501848490,
+          "stop" : 1628501864275,
+          "duration" : 15785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55891298fd988c300869b7fcf046e3f5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

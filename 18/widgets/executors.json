@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://davidkirchknopf.github.io/vizsgaREMEK",
+  "buildOrder" : 18,
+  "buildName" : "GitHub Actions Run #1112327625",
+  "buildUrl" : "https://github.com/davidkirchknopf/vizsgaREMEK/actions/runs/1112327625",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/18/"
+} ]
