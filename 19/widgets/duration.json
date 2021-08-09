@@ -1,0 +1,111 @@
+[ {
+  "uid" : "c214ee595554a25d",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628505695432,
+    "stop" : 1628505706168,
+    "duration" : 10736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a51b2751bfaf732a",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628505597138,
+    "stop" : 1628505615557,
+    "duration" : 18419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad0ce1c95d496c70",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628505531262,
+    "stop" : 1628505561339,
+    "duration" : 30077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43c7da97700dc105",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628505503267,
+    "stop" : 1628505531168,
+    "duration" : 27901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f00972cda4be159",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628505641755,
+    "stop" : 1628505669520,
+    "duration" : 27765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49f3d7ae22587d79",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628505717676,
+    "stop" : 1628505736693,
+    "duration" : 19017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13c2876324d97629",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628505706175,
+    "stop" : 1628505717672,
+    "duration" : 11497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "198c2d407e312ee7",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628505669531,
+    "stop" : 1628505695422,
+    "duration" : 25891
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e4d046b38544972",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628505561346,
+    "stop" : 1628505577793,
+    "duration" : 16447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3cb03bf5462548",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628505615567,
+    "stop" : 1628505641749,
+    "duration" : 26182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45c3afcd4c63ae18",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628505577805,
+    "stop" : 1628505597132,
+    "duration" : 19327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
