@@ -1,0 +1,130 @@
+{
+  "uid" : "d92ef86d026c2566",
+  "name" : "ModificationOurProfilTest()",
+  "fullName" : "dataModification.ModificationTest.ModificationOurProfilTest",
+  "historyId" : "80537eeb813e322b02e7a3b264d0e04f",
+  "time" : {
+    "start" : 1628512648966,
+    "stop" : 1628512669690,
+    "duration" : 20724
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628512648966,
+      "stop" : 1628512655298,
+      "duration" : 6332
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1652c243d51af05",
+      "name" : "Screenshot",
+      "source" : "e1652c243d51af05.png",
+      "type" : "image/png",
+      "size" : 198720
+    }, {
+      "uid" : "e75410f830578b03",
+      "name" : "Screenshot",
+      "source" : "e75410f830578b03.png",
+      "type" : "image/png",
+      "size" : 176688
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628512666619,
+      "stop" : 1628512669689,
+      "duration" : 3070
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-771"
+  }, {
+    "name" : "thread",
+    "value" : "2929@fv-az77-771.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "dataModification.ModificationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "dataModification.ModificationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ModificationOurProfilTest"
+  }, {
+    "name" : "suite",
+    "value" : "dataModification.ModificationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "63e73d9d6bb14b53",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/21//#testresult/63e73d9d6bb14b53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628511916095,
+          "stop" : 1628511937546,
+          "duration" : 21451
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d92ef86d026c2566.json",
+  "parameterValues" : [ ]
+}

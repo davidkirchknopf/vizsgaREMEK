@@ -1,0 +1,130 @@
+{
+  "uid" : "184a9fd25975bef2",
+  "name" : "DownloadAgisInformationTesting()",
+  "fullName" : "dataDownloading.DownloadAgisInformationTest.DownloadAgisInformationTesting",
+  "historyId" : "ebe6e76577b54bfcb05467dde1048ee0",
+  "time" : {
+    "start" : 1628512669694,
+    "stop" : 1628512688136,
+    "duration" : 18442
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628512669694,
+      "stop" : 1628512674884,
+      "duration" : 5190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6140a263c04bc070",
+      "name" : "Screenshot",
+      "source" : "6140a263c04bc070.png",
+      "type" : "image/png",
+      "size" : 199536
+    }, {
+      "uid" : "9b263288e3e317c5",
+      "name" : "Screenshot",
+      "source" : "9b263288e3e317c5.png",
+      "type" : "image/png",
+      "size" : 324688
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628512685065,
+      "stop" : 1628512688136,
+      "duration" : 3071
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-771"
+  }, {
+    "name" : "thread",
+    "value" : "2929@fv-az77-771.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "dataDownloading.DownloadAgisInformationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "dataDownloading.DownloadAgisInformationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "DownloadAgisInformationTesting"
+  }, {
+    "name" : "suite",
+    "value" : "dataDownloading.DownloadAgisInformationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bb549984fc3957c1",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/21//#testresult/bb549984fc3957c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628511937554,
+          "stop" : 1628511957573,
+          "duration" : 20019
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "184a9fd25975bef2.json",
+  "parameterValues" : [ ]
+}
