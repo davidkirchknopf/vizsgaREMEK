@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class PictureUploadAndDeleteTest extends BaseTest {
 
     @Test
-    public void ModificationTest() throws InterruptedException {
+    public void PictureUploadAndDeleteTesting() throws InterruptedException {
         doLogin();
         ProfilePage profilePage = new ProfilePage(driver, wait);
         ImagesPage imagesPage = new ImagesPage(driver, wait);

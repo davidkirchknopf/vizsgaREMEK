@@ -10,7 +10,7 @@ import util.Util;
 public class DatasListingTest extends BaseTest {
 
     @Test
-    public void clickingWhomCouldIKnow() throws InterruptedException {
+    public void ClickingWhomCouldIKnowTest(){
         try { driver.findElement(By.xpath("//*[@id=\"dismiss-button\"]\n")).click();
         } catch(Exception e){
         }

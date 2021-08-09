@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class LoginTest extends BaseTest {
 
     @Test
-    public void Login(){
+    public void LoginTesting(){
         homePage.typeEmailAddressFieldLogin(email);
         homePage.typePasswordFieldLogin(pw);
         homePage.clickLoginRememberEmailCheckbox();

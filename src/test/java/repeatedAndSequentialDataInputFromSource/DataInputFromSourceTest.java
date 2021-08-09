@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DataInputFromSourceTest extends BaseTest {
 
     @Test
-    public void DataInputFromSource() throws InterruptedException {
+    public void ShareSomethingOnTheWallTest(){
         doLogin();
         ProfilePage profilePage = new ProfilePage(driver, wait);
         Util.TakeScreenshot(driver);

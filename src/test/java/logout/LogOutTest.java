@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class LogOutTest extends BaseTest {
 
     @Test
-    public void LogOutTest() {
+    public void LoggingOutTest() {
     MainPage mainPage = new MainPage(driver);
     doLogin();
     mainPage.clickOnLogoutButton();

@@ -15,7 +15,7 @@ public class DownloadAgisInformationTest extends BaseTest {
 
 
     @Test
-    public void DownloadAgisInformation() throws InterruptedException {
+    public void DownloadAgisInformationTesting(){
         doLogin();
         MessagesPage messagesPage = new MessagesPage(driver, wait);
         MyVIPAgiPage myVIPAgiPage = new MyVIPAgiPage(driver, wait);

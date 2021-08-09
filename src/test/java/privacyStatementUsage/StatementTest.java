@@ -12,7 +12,7 @@ public class StatementTest extends BaseTest {
 
 
     @Test
-    public void StatementReadingSaving() throws InterruptedException {
+    public void StatementReadingSavingTest() throws InterruptedException {
         homePage.clickPrivacyStatement();
             try {
                 FileWriter fileWriter = new FileWriter("SavingTheStatement.txt");

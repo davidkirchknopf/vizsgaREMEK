@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RegTest extends BaseTest {
 
     @Test
-    public void Registration() throws InterruptedException {
+    public void RegistrationTest() throws InterruptedException {
         Util.TakeScreenshot(driver);
         homePage.clickRegistrationButton();
         Util.TakeScreenshot(driver);

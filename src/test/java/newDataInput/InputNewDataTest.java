@@ -10,7 +10,7 @@ public class InputNewDataTest extends BaseTest {
 
 
     @Test
-    public void writeANewMessage() throws InterruptedException {
+    public void WritingAMessageTest(){
         doLogin();
         MessagesPage messagesPage = new MessagesPage(driver, wait);
         MyVIPAgiPage myVIPAgiPage = new MyVIPAgiPage(driver, wait);

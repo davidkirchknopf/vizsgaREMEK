@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class turnOverTest extends BaseTest {
 
     @Test
-    public void searchingForFriends() throws InterruptedException {
+    public void SearchingForFriendsAdvancedTest() throws InterruptedException {
         doLogin();
         FriendsPage friendsPage = new FriendsPage(driver, wait);
         friendsPage.clickToFriendsMainButton();

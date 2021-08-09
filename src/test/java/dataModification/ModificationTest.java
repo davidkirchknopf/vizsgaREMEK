@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ModificationTest extends BaseTest {
 
     @Test
-    public void ModificationTest() {
+    public void ModificationOurProfilTest() {
             doLogin();
             ProfilePage profilePage = new ProfilePage(driver, wait);
             Util.TakeScreenshot(driver);
