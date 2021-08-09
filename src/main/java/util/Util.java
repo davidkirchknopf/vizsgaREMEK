@@ -19,7 +19,7 @@ public class Util {
         this.wait = wait;
     }
 
-    private final By HANDLE_TOO_MANY_LOGIN = By.xpath("//span[@class='btn-symbol symbol symbol-pipeyes']");
+    private final By HANDLE_TOO_MANY_LOGIN = By.xpath("//*[@id=\"alertPopup\"]/div[2]/div/div/div/div[2]/div[2]/div/a/span[2]");
     public static void scrollUp(WebDriver driver, By locator){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, -400)");
@@ -36,11 +36,10 @@ public class Util {
 
     public boolean clickOnHANDLE_TOO_MANY_LOGIN(){
         try{
-            WebDriverWait wait = new WebDriverWait(driver, 5);
+            WebDriverWait wait = new WebDriverWait(driver, 1);
             wait.until(ExpectedConditions.visibilityOfElementLocated(HANDLE_TOO_MANY_LOGIN));
             driver.findElement(HANDLE_TOO_MANY_LOGIN).click();
         }catch (NoSuchElementException e){
-            return false;
         }
         return true;
     }
