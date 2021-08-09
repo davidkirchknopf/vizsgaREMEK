@@ -14,8 +14,8 @@ public class ImagesPage {
         this.wait = wait;
     }
 
-    private final By imageUploadingButton = By.xpath("//span[.='feltöltés ide']");
+    private final By IMAGE_UPLOADING_BUTTON = By.xpath("//span[.='feltöltés ide']");
 
-    public void clickOnImageUploadingButton(){ driver.findElement(imageUploadingButton).click();}
+    public void clickOnImageUploadingButton(){ driver.findElement(IMAGE_UPLOADING_BUTTON).click();}
 
 }

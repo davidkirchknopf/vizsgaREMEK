@@ -5,9 +5,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.ByteArrayInputStream;
-import java.util.NoSuchElementException;
 
 public class Util {
 
@@ -24,10 +22,6 @@ public class Util {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, -400)");
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(locator));
-    }
-
-    public static void refresh(WebDriver driver){
-        driver.navigate().refresh();
     }
 
     public static void waitForXMillis(int time) throws InterruptedException {

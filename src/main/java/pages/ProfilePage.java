@@ -17,16 +17,16 @@ public class ProfilePage {
         this.driver = driver;
         this.wait = wait;
     }
-    private final By profileMainButton = By.xpath("//div[4]/div/a[1]");
-    private final By enterTextOnTheWall = By.xpath("//*[@id=\"entry_share_form\"]/div[1]/span/textarea");
-    private final By shareButton = By.xpath("//*[@id=\"entry_share_form\"]/div[3]/span[2]/a/span[2]");
-    private final By deleteEntryFromWallButton = By.xpath("//div[@class='entry-item-inner cf']/div[@class='entry-item-delete-wrapper']//span[1]/a[@href='javascript:;']");
-    private final By profileEditButton = By.xpath("//span[.='edit profile']");
-    private final By profileEditIntroducationField = By.xpath("//*[@id=\"formrow_pform_profile_intro\"]/div/div[2]/span/textarea\n");
-    private final By profileSaveButton = By.xpath("//div[29]//a[contains(.,'Save')]");
-    private final By profilProfilButton = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/ul/li[2]/a");
-    private final By profileIntroduction = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/ul/li[16]/span[2]/div\n");
-    private final By photosPage = By.xpath("//a[.='Photos']");
+    private final By PROFILE_MAIN_BUTTON = By.xpath("//div[4]/div/a[1]");
+    private final By POST_A_MESSAGE_ON_THE_WALL_FIELD = By.xpath("//*[@id=\"entry_share_form\"]/div[1]/span/textarea");
+    private final By SHARE_BUTTON = By.xpath("//*[@id=\"entry_share_form\"]/div[3]/span[2]/a/span[2]");
+    private final By DELETE_ENTRY_FROM_WALL_BUTTON = By.xpath("//div[@class='entry-item-inner cf']/div[@class='entry-item-delete-wrapper']//span[1]/a[@href='javascript:;']");
+    private final By EDIT_PROFILE_BUTTON = By.xpath("//span[.='edit profile']");
+    private final By EDIT_PROFILE_INTRODUCTION_FIELD = By.xpath("//*[@id=\"formrow_pform_profile_intro\"]/div/div[2]/span/textarea\n");
+    private final By SAVE_PROFILE_BUTTON = By.xpath("//div[29]//a[contains(.,'Save')]");
+    private final By PROFIL_PROFIL_BUTTON = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/ul/li[2]/a");
+    private final By PROFILE_INTRODUCUTION = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/ul/li[16]/span[2]/div\n");
+    private final By PHOTOS_PAGE_BUTTON = By.xpath("//a[.='Photos']");
 
     public String getRandomString() {
         return randomString;
@@ -48,7 +48,7 @@ public class ProfilePage {
     }
 
     public void clickOnProfileMainButton(){
-        driver.findElement(profileMainButton).click();
+        driver.findElement(PROFILE_MAIN_BUTTON).click();
     }
     public void repeatedMultiInputText() {
         String[] dataItem;
@@ -59,7 +59,7 @@ public class ProfilePage {
                 while (scanner.hasNextLine()) {
                     String data = scanner.nextLine();
                     dataItem = data.split(",");
-                    driver.findElement(enterTextOnTheWall).sendKeys(dataItem[i]);
+                    driver.findElement(POST_A_MESSAGE_ON_THE_WALL_FIELD).sendKeys(dataItem[i]);
                 }
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -67,37 +67,37 @@ public class ProfilePage {
         }
     }
     public void clickOnShareButton(){
-        driver.findElement(shareButton).click();
+        driver.findElement(SHARE_BUTTON).click();
     }
     public boolean clickOnDeleteEntryFromWallButton(){
         try{
             WebDriverWait wait = new WebDriverWait(driver, 5);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(deleteEntryFromWallButton));
-            driver.findElement(deleteEntryFromWallButton);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(DELETE_ENTRY_FROM_WALL_BUTTON));
+            driver.findElement(DELETE_ENTRY_FROM_WALL_BUTTON);
         }catch (Exception e){
             return false;
         }
         return true;
     }
     public void clickOnProfileEditButton(){
-        driver.findElement(profileEditButton).click(); }
+        driver.findElement(EDIT_PROFILE_BUTTON).click(); }
 
-    public void interactProfileEditIntroducationField() { driver.findElement(profileEditIntroducationField);
-        driver.findElement(profileEditIntroducationField).click();
-        driver.findElement(profileEditIntroducationField).clear();
-        driver.findElement(profileEditIntroducationField).sendKeys(randomString());
+    public void interactProfileEditIntroducationField() { driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD);
+        driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).click();
+        driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).clear();
+        driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).sendKeys(randomString());
     }
 
     public void clickOnProfileSaveButton(){
-        driver.findElement(profileSaveButton).click();}
+        driver.findElement(SAVE_PROFILE_BUTTON).click();}
 
     public void clickOnprofilProfilButton(){
-        driver.findElement(profilProfilButton).click();
+        driver.findElement(PROFIL_PROFIL_BUTTON).click();
     }
     public String getIntroductionText(){
-        return driver.findElement(profileIntroduction).getText();
+        return driver.findElement(PROFILE_INTRODUCUTION).getText();
     }
     public void clickOnPhotosPage(){
-        driver.findElement(photosPage).click();
+        driver.findElement(PHOTOS_PAGE_BUTTON).click();
     }
 }

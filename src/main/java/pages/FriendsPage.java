@@ -16,57 +16,57 @@ public class FriendsPage {
         this.wait = wait;
     }
 
-    private final By friendsMainButton = By.xpath("//span[.='Friends']");
-    private final By advancedSearchPlaceOfOResidence = By.name("homeid");
-    private final By advancedSearchMaritalStatus = By.name("maritalstatus");
-    private final By advancedSearchZodiacSign = By.name("zodiac");
-    private final By advancedSearchGender = By.name("sex");
-    private final By findButtonAdvancedSearch = By.xpath("//span[.='Find!']");
-    private final By pageFirst = By.xpath("//*[@id='pagerform_upper']/div/div[1]/div/a[3]");
-    private final By pageSecond = By.xpath("//form[@id='pagerform_upper']//a[.='25-48']");
-    private final By pageLast = By.xpath("//a[@class='rangepager-jump rangepager-jump-last']");
-    private final By pagePreviousOne = By.xpath("//form[@id='pagerform_upper']//a[2]");
+    private final By FRIENDS_MAIN_BUTTON = By.xpath("//span[.='Friends']");
+    private final By ADVANCED_SEARCH_PLACE_OF_RESIDENCE_DROPDOWN = By.name("homeid");
+    private final By ADVANCED_SEARCH_MARITAL_STATUS_DROPDOWN = By.name("maritalstatus");
+    private final By ADVANCED_SEARCH_ZODIAC_SIGN_DROPDOWN= By.name("zodiac");
+    private final By ADVANCED_SEARCH_GENDER_DROPDOWN = By.name("sex");
+    private final By ADVANCED_SEARCH_BUTTON = By.xpath("//span[.='Find!']");
+    private final By PAGE_FIRST_BUTTON = By.xpath("//*[@id='pagerform_upper']/div/div[1]/div/a[3]");
+    private final By PAGE_SECOND_BUTTON = By.xpath("//form[@id='pagerform_upper']//a[.='25-48']");
+    private final By PAGE_LAST_BUTTON = By.xpath("//a[@class='rangepager-jump rangepager-jump-last']");
+    private final By PAGE_PREVIOUS_ONE_BUTTON = By.xpath("//form[@id='pagerform_upper']//a[2]");
 
 
-    public void clickToFriendsMainButton(){ driver.findElement(friendsMainButton).click();}
+    public void clickToFriendsMainButton(){ driver.findElement(FRIENDS_MAIN_BUTTON).click();}
 
     public void dropDownResidence(String option) {
-        Select select = new Select(driver.findElement(advancedSearchPlaceOfOResidence));
+        Select select = new Select(driver.findElement(ADVANCED_SEARCH_PLACE_OF_RESIDENCE_DROPDOWN));
         select.selectByValue(option);
         Util.deleteAds(driver);
     }
     public void dropDownMarital(String option) {
-        Select select = new Select(driver.findElement(advancedSearchMaritalStatus));
+        Select select = new Select(driver.findElement(ADVANCED_SEARCH_MARITAL_STATUS_DROPDOWN));
         select.selectByValue(option);
         Util.deleteAds(driver);
     }
     public void dropDownZodiac(String option) {
-        Select select = new Select(driver.findElement(advancedSearchZodiacSign));
+        Select select = new Select(driver.findElement(ADVANCED_SEARCH_ZODIAC_SIGN_DROPDOWN));
         select.selectByValue(option);
         Util.deleteAds(driver);
     }
     public void dropDownGender(String option) {
-        Select select = new Select(driver.findElement(advancedSearchGender));
+        Select select = new Select(driver.findElement(ADVANCED_SEARCH_GENDER_DROPDOWN));
         select.selectByValue(option);
         Util.deleteAds(driver);
     }
     public void clickOnFindButtonAdvancedSearch(){
-        Util.clickElement(driver, findButtonAdvancedSearch);
+        Util.clickElement(driver, ADVANCED_SEARCH_BUTTON);
     }
     public void clickOnPageFirst(){
-        Util.clickElement(driver, pageFirst);
+        Util.clickElement(driver, PAGE_FIRST_BUTTON);
     }
     public void clickOnPageSecond(){
-        Util.clickElement(driver, pageSecond);
+        Util.clickElement(driver, PAGE_SECOND_BUTTON);
     }
     public void clickOnPageLast(){
-        Util.clickElement(driver, pageLast);
+        Util.clickElement(driver, PAGE_LAST_BUTTON);
     }
     public void clickOnPagePreviousOne(){
-        Util.clickElement(driver, pagePreviousOne);
+        Util.clickElement(driver, PAGE_PREVIOUS_ONE_BUTTON);
     }
     public String getOnPageSecondColor(){
-        return driver.findElement(pageSecond).getCssValue("background-color");
+        return driver.findElement(PAGE_SECOND_BUTTON).getCssValue("background-color");
     }
 }
 

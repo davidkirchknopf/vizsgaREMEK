@@ -14,71 +14,71 @@ public class HomePage
     }
     private WebDriver driver;
 
-    private final By registrationButton = By.xpath("//*[@id='index_panel_id_login']/div[1]/div[1]/a/span[1]");
-    private final By enLanguageButton = By.xpath("//div[8]/a[2]");
+    private final By REGISTRATION_BUTTON = By.xpath("//*[@id='index_panel_id_login']/div[1]/div[1]/a/span[1]");
+    private final By EN_LANGUAGE_BUTTON = By.xpath("//div[8]/a[2]");
     private final By ACCEPT_COOKIE_BUTTON = By.xpath("/html/body/div[1]/div/a[1]");
-    private final By lastNameField = By.xpath("//*[@id='formrow_rform_reg_lastname']/div/div[2]/span/input");
-    private final By firstNameField = By.xpath("//*[@id='formrow_rform_reg_firstname']/div/div[2]/span/input");
-    private final By mailAddressField = By.xpath("//*[@id='formrow_rform_reg_email']/div/div[2]/span/input");
-    private final By passwordField = By.xpath("//*[@id='formrow_rform_reg_passw']/div/div[2]/span/input");
-    private final By genderButtonMale = By.xpath("//*[@id='formrow_rform_reg_sex']/div/div[2]/span[1]/label");
-    private final By dateOfBirthYear = By.xpath ("//*[@id='formrow_rform_reg_birthdate']/div/div[2]/span[1]/select");
-    private final By dateOfBirthMonth = By.xpath("//*[@id='formrow_rform_reg_birthdate']/div/div[2]/span[2]/select");
-    private final By dateOfBirthDay = By.xpath("//*[@id='formrow_rform_reg_birthdate']/div/div[2]/span[3]/select");
-    private final By agreementCheckBox = By.xpath("//*[@id='formrow__']/div/div[2]/div/span/label");
+    private final By LAST_NAME_FIELD = By.xpath("//*[@id='formrow_rform_reg_lastname']/div/div[2]/span/input");
+    private final By FIRST_NAME_FIELD = By.xpath("//*[@id='formrow_rform_reg_firstname']/div/div[2]/span/input");
+    private final By MAIL_ADDRESS_FIELD = By.xpath("//*[@id='formrow_rform_reg_email']/div/div[2]/span/input");
+    private final By PASSWORD_FIELD = By.xpath("//*[@id='formrow_rform_reg_passw']/div/div[2]/span/input");
+    private final By GENDER_MALE_CHECKBOX = By.xpath("//*[@id='formrow_rform_reg_sex']/div/div[2]/span[1]/label");
+    private final By DATE_OF_BIRTH_YEAR_DROPDOWN = By.xpath ("//*[@id='formrow_rform_reg_birthdate']/div/div[2]/span[1]/select");
+    private final By DATE_OF_BIRTH_MONTH_DROPDOWN = By.xpath("//*[@id='formrow_rform_reg_birthdate']/div/div[2]/span[2]/select");
+    private final By DATE_OF_BIRTH_DAY_DROPDOWN = By.xpath("//*[@id='formrow_rform_reg_birthdate']/div/div[2]/span[3]/select");
+    private final By AGREEMENT_CHECKBOX = By.xpath("//*[@id='formrow__']/div/div[2]/div/span/label");
     private final By captchaCheckBox = By.xpath(".recaptcha-checkbox-border");
     private final By captchaIFrame = By.xpath("recaptcha-anchor-label");
-    private final By registrationFinishingButton = By.xpath("//*[@id='formrow__']/div/div[2]/a/span[2]");
-    private final By loginEmailField = By.xpath("//input[@id='belep_emailinput']");
-    private final By loginPasswordField = By.xpath("//div[@id='formrow_mform_login_passw']//input[1]");
-    private final By loginRememberEmailCheckbox = By.xpath("//*[@id='formrow__']/div/div[2]/span[1]/label");
-    private final By loginRememberPasswordCheckbox = By.xpath("//*[@id='formrow__']/div/div[2]/span[2]/label");
-    private final By loginHiddenCheckbox = By.xpath("//*[@id='formrow__']/div/div[2]/span[3]/label");
-    private final By loginLoginButton = By.xpath("//*[@id='formrow__']/div/div[2]/a/span[2]");
-    private final By privacyStatement = By.xpath("//*[@id='index_panel_id_login']/div[1]/div[2]/ul/li[4]/a");
-    private final By exitPrivacyStatement = By.xpath("//div[@class='box-header']/a[@href='javascript:;']");
-    public  final By wholeOfPrivacyStatement = By.xpath("//div[@class='site-popup-content']//div[@class='box-content cf']");
+    private final By REGISTRATION_FINISHING_BUTTON = By.xpath("//*[@id='formrow__']/div/div[2]/a/span[2]");
+    private final By LOGIN_EMAIL_FIELD = By.xpath("//input[@id='belep_emailinput']");
+    private final By LOGIN_PASSWORD_FIELD = By.xpath("//div[@id='formrow_mform_login_passw']//input[1]");
+    private final By LOGIN_REMEMBER_EMAIL_CHECKBOX = By.xpath("//*[@id='formrow__']/div/div[2]/span[1]/label");
+    private final By LOGIN_REMEMBER_PASSWORD_CHECKBOX = By.xpath("//*[@id='formrow__']/div/div[2]/span[2]/label");
+    private final By LOGIN_HIDDEN_CHECKBOX = By.xpath("//*[@id='formrow__']/div/div[2]/span[3]/label");
+    private final By LOGIN_LOGIN_BUTTON = By.xpath("//*[@id='formrow__']/div/div[2]/a/span[2]");
+    private final By PRIVACY_STATEMENT = By.xpath("//*[@id='index_panel_id_login']/div[1]/div[2]/ul/li[4]/a");
+    private final By EXIT_FROM_PRIVACY_STATEMENT_BUTTON = By.xpath("//div[@class='box-header']/a[@href='javascript:;']");
+    public  final By WHOLE_TEXT_FROM_PRIVACY_STATEMENT = By.xpath("//div[@class='site-popup-content']//div[@class='box-content cf']");
 
     public void clickRegistrationButton(){
-        driver.findElement(registrationButton).click();
+        driver.findElement(REGISTRATION_BUTTON).click();
     }
     public void clickEnLanguageButton(){
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.findElement(enLanguageButton).click();
+        driver.findElement(EN_LANGUAGE_BUTTON).click();
     }
     public void clickOnAcceptCookie(){
         driver.findElement(ACCEPT_COOKIE_BUTTON).click();
     }
     public void typeInLastNameField(){
-        driver.findElement(lastNameField).sendKeys("QA");
+        driver.findElement(LAST_NAME_FIELD).sendKeys("QA");
     }
     public void typeInFirstNameField(){
-        driver.findElement(firstNameField).sendKeys("Tester");
+        driver.findElement(FIRST_NAME_FIELD).sendKeys("Tester");
     }
     public void typeEmailAddressField(String email){
-        driver.findElement(mailAddressField).sendKeys(email);
+        driver.findElement(MAIL_ADDRESS_FIELD).sendKeys(email);
 }
     public void typePasswordField(String pw){
-        driver.findElement(passwordField).sendKeys(pw);
+        driver.findElement(PASSWORD_FIELD).sendKeys(pw);
     }
     public void clickGenderButtonMale(){
-        driver.findElement(genderButtonMale).click();
+        driver.findElement(GENDER_MALE_CHECKBOX).click();
     }
     public void clickDateOfBirthYear(String option){
-        Select ageSelect = new Select(driver.findElement(dateOfBirthYear));
+        Select ageSelect = new Select(driver.findElement(DATE_OF_BIRTH_YEAR_DROPDOWN));
         ageSelect.selectByVisibleText(option);
     }
     public void clickDateOfBirthMonth(String option){
-        Select ageSelectMonth = new Select(driver.findElement(dateOfBirthMonth));
+        Select ageSelectMonth = new Select(driver.findElement(DATE_OF_BIRTH_MONTH_DROPDOWN));
         ageSelectMonth.selectByVisibleText(option);
     }
-    public void clickDateOfBirthDay(String option) throws InterruptedException {
-        Select ageSelectDay = new Select(driver.findElement(dateOfBirthDay));
+    public void clickDateOfBirthDay(String option) {
+        Select ageSelectDay = new Select(driver.findElement(DATE_OF_BIRTH_DAY_DROPDOWN));
         ageSelectDay.selectByVisibleText(option);
 
     }
     public void clickAgreementCheckBox() throws InterruptedException {
-        driver.findElement(agreementCheckBox).click();
+        driver.findElement(AGREEMENT_CHECKBOX).click();
         Thread.sleep(5000);
     }
 
@@ -92,33 +92,33 @@ public class HomePage
     }*/
 
     public void clickRegistrationFinishingButton() throws InterruptedException {
-        List<WebElement> buttons = driver.findElements(registrationFinishingButton);
+        List<WebElement> buttons = driver.findElements(REGISTRATION_FINISHING_BUTTON);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         buttons.get(1).click();
     }
     public void typeEmailAddressFieldLogin(String email){
-        driver.findElement(loginEmailField).sendKeys(email);
+        driver.findElement(LOGIN_EMAIL_FIELD).sendKeys(email);
     }
     public void typePasswordFieldLogin(String pw){
-        driver.findElement(loginPasswordField).sendKeys(pw);
+        driver.findElement(LOGIN_PASSWORD_FIELD).sendKeys(pw);
     }
     public void clickLoginRememberEmailCheckbox(){
-        driver.findElement(loginRememberEmailCheckbox).click();
+        driver.findElement(LOGIN_REMEMBER_EMAIL_CHECKBOX).click();
     }
     public void clickLoginRememberPasswordCheckbox(){
-        driver.findElement(loginRememberPasswordCheckbox).click();
+        driver.findElement(LOGIN_REMEMBER_PASSWORD_CHECKBOX).click();
     }
     public void clickLoginHiddenCheckbox(){
-        driver.findElement(loginHiddenCheckbox).click();
+        driver.findElement(LOGIN_HIDDEN_CHECKBOX).click();
     }
     public void clickLoginLoginButton(){
-        driver.findElement(loginLoginButton).click();
+        driver.findElement(LOGIN_LOGIN_BUTTON).click();
     }
     public void clickPrivacyStatement() throws InterruptedException {
-        driver.findElement(privacyStatement).click();
+        driver.findElement(PRIVACY_STATEMENT).click();
         Thread.sleep(2000);
     }
     public void clickExitPrivacyStatement(){
-        driver.findElement(exitPrivacyStatement).click();
+        driver.findElement(EXIT_FROM_PRIVACY_STATEMENT_BUTTON).click();
     }
 }

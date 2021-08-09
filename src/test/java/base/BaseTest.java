@@ -65,5 +65,5 @@ public class BaseTest {
             e.printStackTrace();
         }
         driver.quit();
-
-    }}
+    }
+}

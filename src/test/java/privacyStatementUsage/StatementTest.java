@@ -16,7 +16,7 @@ public class StatementTest extends BaseTest {
         homePage.clickPrivacyStatement();
             try {
                 FileWriter fileWriter = new FileWriter("SavingTheStatement.txt");
-                fileWriter.append(driver.findElement(homePage.wholeOfPrivacyStatement).getText());
+                fileWriter.append(driver.findElement(homePage.WHOLE_TEXT_FROM_PRIVACY_STATEMENT).getText());
                 fileWriter.close();
             } catch (IOException e) {
                 e.printStackTrace();

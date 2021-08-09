@@ -11,19 +11,19 @@ public class WhomCouldIKnowPage {
         this.driver = driver;
     }
 
-    public By getFilterForName() {
-        return filterForName; }
-    private final By filterForName = By.xpath("//input[@name='namefilter']");
-    private final By filterOKButton = By.xpath("//*[@id=\"filterform\"]/div[2]/div[2]/a");
+    public By getFILTER_FOR_NAME_BUTTON() {
+        return FILTER_FOR_NAME_BUTTON; }
+    private final By FILTER_FOR_NAME_BUTTON = By.xpath("//input[@name='namefilter']");
+    private final By FILTER_OK_BUTTON = By.xpath("//*[@id=\"filterform\"]/div[2]/div[2]/a");
 
 
     public void clickFilterForName(){
-        driver.findElement(filterForName).click();
+        driver.findElement(FILTER_FOR_NAME_BUTTON).click();
     }
     public void typeFilterForName(){
-        driver.findElement(filterForName).sendKeys("Dávid");
+        driver.findElement(FILTER_FOR_NAME_BUTTON).sendKeys("Dávid");
     }
-    public void clickFilterOKButton(){ driver.findElement(filterOKButton).click();}
+    public void clickFilterOKButton(){ driver.findElement(FILTER_OK_BUTTON).click();}
     public int countingNameDavid(){
             WebElement body = driver.findElement(By.tagName("body"));
             String bodyText = body.getText();
