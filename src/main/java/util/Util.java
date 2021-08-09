@@ -36,10 +36,10 @@ public class Util {
 
     public boolean clickOnHANDLE_TOO_MANY_LOGIN(){
         try{
-            WebDriverWait wait = new WebDriverWait(driver, 1);
+            WebDriverWait wait = new WebDriverWait(driver, 2);
             wait.until(ExpectedConditions.visibilityOfElementLocated(HANDLE_TOO_MANY_LOGIN));
             driver.findElement(HANDLE_TOO_MANY_LOGIN).click();
-        }catch (NoSuchElementException e){
+        }catch (TimeoutException e){
         }
         return true;
     }
