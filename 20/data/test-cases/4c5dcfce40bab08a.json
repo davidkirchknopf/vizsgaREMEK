@@ -1,0 +1,184 @@
+{
+  "uid" : "4c5dcfce40bab08a",
+  "name" : "writeANewMessage()",
+  "fullName" : "newDataInput.InputNewDataTest.writeANewMessage",
+  "historyId" : "7751b9a85fdd541ec9bcd18c34bec22a",
+  "time" : {
+    "start" : 1628510374549,
+    "stop" : 1628510396823,
+    "duration" : 22274
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628510374550,
+      "stop" : 1628510378143,
+      "duration" : 3593
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628510393752,
+      "stop" : 1628510396823,
+      "duration" : 3071
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-873"
+  }, {
+    "name" : "thread",
+    "value" : "3030@fv-az28-873.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "newDataInput.InputNewDataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "newDataInput.InputNewDataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "writeANewMessage"
+  }, {
+    "name" : "suite",
+    "value" : "newDataInput.InputNewDataTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "aa3cb03bf5462548",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/19//#testresult/aa3cb03bf5462548",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628505615567,
+          "stop" : 1628505641749,
+          "duration" : 26182
+        }
+      }, {
+        "uid" : "91f3d8223d062060",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/18//#testresult/91f3d8223d062060",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"alertPopup\"]/div[2]/div/div/div/div[2]/div[2]/div/a/span[2] (tried for 1 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1628501816150,
+          "stop" : 1628501832785,
+          "duration" : 16635
+        }
+      }, {
+        "uid" : "abad0be71269934c",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/17//#testresult/abad0be71269934c",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='btn-symbol symbol symbol-pipeyes'] (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1628445438141,
+          "stop" : 1628445451692,
+          "duration" : 13551
+        }
+      }, {
+        "uid" : "2ebc3a00c0499bcb",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/16//#testresult/2ebc3a00c0499bcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628288568020,
+          "stop" : 1628288588755,
+          "duration" : 20735
+        }
+      }, {
+        "uid" : "8a0b264280e61665",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/15//#testresult/8a0b264280e61665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628285979261,
+          "stop" : 1628286000742,
+          "duration" : 21481
+        }
+      }, {
+        "uid" : "5200c05b6bfc91fa",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/14//#testresult/5200c05b6bfc91fa",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"messagescont\"]/div/div[1]/div/div[2]/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.54', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.rjNlGN}, goog:chromeOptions: {debuggerAddress: localhost:42295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3550499fa18fbdec0dcd738d26816663\n*** Element info: {Using=xpath, value=//*[@id=\"messagescont\"]/div/div[1]/div/div[2]/ul/li[4]/a}",
+        "time" : {
+          "start" : 1628285927874,
+          "stop" : 1628285954844,
+          "duration" : 26970
+        }
+      }, {
+        "uid" : "7b0253ddc4408ae4",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/13//#testresult/7b0253ddc4408ae4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628285888013,
+          "stop" : 1628285909902,
+          "duration" : 21889
+        }
+      }, {
+        "uid" : "cb596ddcb9a4a8b5",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/12//#testresult/cb596ddcb9a4a8b5",
+        "status" : "broken",
+        "statusDetails" : "java.lang.NullPointerException",
+        "time" : {
+          "start" : 1628285413756,
+          "stop" : 1628285416759,
+          "duration" : 3003
+        }
+      }, {
+        "uid" : "45f221c2f6eb2c9b",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/11//#testresult/45f221c2f6eb2c9b",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.169', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55d06b92d8c3 <unknown>\n#1 0x55d06b6a0ae8 <unknown>\n#2 0x55d06b6c3705 <unknown>\n#3 0x55d06b6beeea <unknown>\n#4 0x55d06b6f8b17 <unknown>\n#5 0x55d06b6f2e63 <unknown>\n#6 0x55d06b6c9883 <unknown>\n#7 0x55d06b6ca935 <unknown>\n#8 0x55d06b95bb63 <unknown>\n#9 0x55d06b96f26b <unknown>\n#10 0x55d06b9704ef <unknown>\n#11 0x55d06b95cc70 <unknown>\n#12 0x55d06b970a85 <unknown>\n#13 0x55d06b952d4b <unknown>\n#14 0x55d06b98a5a8 <unknown>\n#15 0x55d06b98a728 <unknown>\n#16 0x55d06b9a41ed <unknown>\n#17 0x7fb2c5376609 start_thread\n",
+        "time" : {
+          "start" : 1628284453975,
+          "stop" : 1628284457146,
+          "duration" : 3171
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c5dcfce40bab08a.json",
+  "parameterValues" : [ ]
+}

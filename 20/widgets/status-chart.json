@@ -1,0 +1,111 @@
+[ {
+  "uid" : "54f57ac519272b71",
+  "name" : "DataInputFromSource()",
+  "time" : {
+    "start" : 1628510282980,
+    "stop" : 1628510301648,
+    "duration" : 18668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edb58c2a1105901e",
+  "name" : "clickingWhomCouldIKnow()",
+  "time" : {
+    "start" : 1628510301730,
+    "stop" : 1628510328783,
+    "duration" : 27053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f945673ed23d7c9e",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628510420366,
+    "stop" : 1628510442329,
+    "duration" : 21963
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc2b1db2dd1e0fa0",
+  "name" : "Registration()",
+  "time" : {
+    "start" : 1628510459579,
+    "stop" : 1628510477064,
+    "duration" : 17485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b1c5664090bca60",
+  "name" : "LogOutTest()",
+  "time" : {
+    "start" : 1628510328791,
+    "stop" : 1628510342943,
+    "duration" : 14152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c5dcfce40bab08a",
+  "name" : "writeANewMessage()",
+  "time" : {
+    "start" : 1628510374549,
+    "stop" : 1628510396823,
+    "duration" : 22274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a78ace19773d212",
+  "name" : "StatementReadingSaving()",
+  "time" : {
+    "start" : 1628510450752,
+    "stop" : 1628510459575,
+    "duration" : 8823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2949d23dda045f6",
+  "name" : "ModificationTest()",
+  "time" : {
+    "start" : 1628510342948,
+    "stop" : 1628510359053,
+    "duration" : 16105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98960495ee5da7a6",
+  "name" : "Login()",
+  "time" : {
+    "start" : 1628510442345,
+    "stop" : 1628510450745,
+    "duration" : 8400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72ae6157fd180d5d",
+  "name" : "searchingForFriends()",
+  "time" : {
+    "start" : 1628510396828,
+    "stop" : 1628510420362,
+    "duration" : 23534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da69c5625049526",
+  "name" : "DownloadAgisInformation()",
+  "time" : {
+    "start" : 1628510359061,
+    "stop" : 1628510374540,
+    "duration" : 15479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
