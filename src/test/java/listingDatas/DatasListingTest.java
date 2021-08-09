@@ -18,7 +18,6 @@ public class DatasListingTest extends BaseTest {
         doLogin();
         Util.TakeScreenshot(driver);
         MainPage mainPage = new MainPage(driver);
-        Util.TakeScreenshot(driver);
         WhomCouldIKnowPage whomCouldIKnowPage = mainPage.clickWhomCouldIKnow();
         whomCouldIKnowPage.clickFilterForName();
         whomCouldIKnowPage.typeFilterForName();

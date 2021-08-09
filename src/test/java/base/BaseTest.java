@@ -3,13 +3,11 @@ package base;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.HomePage;
 import org.openqa.selenium.WebDriver;
-import pages.ProfilePage;
 import util.Util;
 
 public class BaseTest {
@@ -30,7 +28,7 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         //System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
+        options.addArguments("--no-sandbox");
         //options.setExperimentalOption("useAutomationExtension", false);
         //options.addArguments("disable-infobars");
         //options.addArguments("--disable-extensions");
