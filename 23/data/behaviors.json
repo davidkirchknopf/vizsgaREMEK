@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "ShareSomethingOnTheWallTest()",
+    "uid" : "db74b91360dade7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515335309,
+      "stop" : 1628515357504,
+      "duration" : 22195
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ClickingWhomCouldIKnowTest()",
+    "uid" : "66492c242b240548",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515357599,
+      "stop" : 1628515387626,
+      "duration" : 30027
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LoggingOutTest()",
+    "uid" : "9bb1ec6d7c967a8a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515387631,
+      "stop" : 1628515405093,
+      "duration" : 17462
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ModificationOurProfilTest()",
+    "uid" : "277a64d6ec578eda",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515405105,
+      "stop" : 1628515425758,
+      "duration" : 20653
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DownloadAgisInformationTesting()",
+    "uid" : "52cff01551fbe56e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515425764,
+      "stop" : 1628515444263,
+      "duration" : 18499
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "WritingAMessageTest()",
+    "uid" : "46c4b229f3c59c79",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515444268,
+      "stop" : 1628515471459,
+      "duration" : 27191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "SearchingForFriendsAdvancedTest()",
+    "uid" : "ee46fa5bedd7634b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515471470,
+      "stop" : 1628515500449,
+      "duration" : 28979
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PictureUploadAndDeleteTesting()",
+    "uid" : "b5fc394ca857346e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1628515500452,
+      "stop" : 1628515526316,
+      "duration" : 25864
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LoginTesting()",
+    "uid" : "4707467245fd7b8a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515526334,
+      "stop" : 1628515537938,
+      "duration" : 11604
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "StatementReadingSavingTest()",
+    "uid" : "c2db04aef9157385",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515537941,
+      "stop" : 1628515549053,
+      "duration" : 11112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "RegistrationTest()",
+    "uid" : "98889a6b0c71fdfa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628515549057,
+      "stop" : 1628515564727,
+      "duration" : 15670
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

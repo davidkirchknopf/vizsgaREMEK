@@ -1,0 +1,111 @@
+[ {
+  "uid" : "98889a6b0c71fdfa",
+  "name" : "RegistrationTest()",
+  "time" : {
+    "start" : 1628515549057,
+    "stop" : 1628515564727,
+    "duration" : 15670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db74b91360dade7f",
+  "name" : "ShareSomethingOnTheWallTest()",
+  "time" : {
+    "start" : 1628515335309,
+    "stop" : 1628515357504,
+    "duration" : 22195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52cff01551fbe56e",
+  "name" : "DownloadAgisInformationTesting()",
+  "time" : {
+    "start" : 1628515425764,
+    "stop" : 1628515444263,
+    "duration" : 18499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4707467245fd7b8a",
+  "name" : "LoginTesting()",
+  "time" : {
+    "start" : 1628515526334,
+    "stop" : 1628515537938,
+    "duration" : 11604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2db04aef9157385",
+  "name" : "StatementReadingSavingTest()",
+  "time" : {
+    "start" : 1628515537941,
+    "stop" : 1628515549053,
+    "duration" : 11112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "277a64d6ec578eda",
+  "name" : "ModificationOurProfilTest()",
+  "time" : {
+    "start" : 1628515405105,
+    "stop" : 1628515425758,
+    "duration" : 20653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee46fa5bedd7634b",
+  "name" : "SearchingForFriendsAdvancedTest()",
+  "time" : {
+    "start" : 1628515471470,
+    "stop" : 1628515500449,
+    "duration" : 28979
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bb1ec6d7c967a8a",
+  "name" : "LoggingOutTest()",
+  "time" : {
+    "start" : 1628515387631,
+    "stop" : 1628515405093,
+    "duration" : 17462
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46c4b229f3c59c79",
+  "name" : "WritingAMessageTest()",
+  "time" : {
+    "start" : 1628515444268,
+    "stop" : 1628515471459,
+    "duration" : 27191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66492c242b240548",
+  "name" : "ClickingWhomCouldIKnowTest()",
+  "time" : {
+    "start" : 1628515357599,
+    "stop" : 1628515387626,
+    "duration" : 30027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5fc394ca857346e",
+  "name" : "PictureUploadAndDeleteTesting()",
+  "time" : {
+    "start" : 1628515500452,
+    "stop" : 1628515526316,
+    "duration" : 25864
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
