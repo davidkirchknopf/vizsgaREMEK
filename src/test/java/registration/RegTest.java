@@ -1,6 +1,7 @@
 package registration;
 
 import base.BaseTest;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import util.Util;
 
@@ -9,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RegTest extends BaseTest {
 
     @Test
+    @DisplayName("Sikeres regisztráció automatizálásának a tesztelése")
     public void RegistrationTest() throws InterruptedException {
         Util.TakeScreenshot(driver);
         homePage.clickRegistrationButton();

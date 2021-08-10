@@ -27,7 +27,7 @@ public class ProfilePage {
     private final By EDIT_PROFILE_INTRODUCTION_FIELD = By.xpath("//*[@id=\"formrow_pform_profile_intro\"]/div/div[2]/span/textarea\n");
     private final By SAVE_PROFILE_BUTTON = By.xpath("//div[29]//a[contains(.,'Save')]");
     private final By PROFIL_PROFIL_BUTTON = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/ul/li[2]/a");
-    private final By PROFILE_INTRODUCUTION = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/ul/li[16]/span[2]/div\n");
+    private final By PROFILE_INTRODUCTION = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/ul/li[16]/span[2]/div\n");
     private final By PHOTOS_PAGE_BUTTON = By.xpath("//a[.='Photos']");
 
     public String getRandomString() {
@@ -106,7 +106,7 @@ public class ProfilePage {
     }
 
     public String getIntroductionText() {
-        return driver.findElement(PROFILE_INTRODUCUTION).getText();
+        return driver.findElement(PROFILE_INTRODUCTION).getText();
     }
 
     public void clickOnPhotosPage() {

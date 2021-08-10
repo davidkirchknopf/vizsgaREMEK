@@ -2,6 +2,7 @@ package dataDownloading;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.MessagesPage;
 import pages.MyVIPAgiPage;
@@ -16,6 +17,7 @@ public class DownloadAgisInformationTest extends BaseTest {
 
 
     @Test
+    @DisplayName("MyVIP Ági nevének letöltése")
     public void DownloadAgisInformationTesting() {
         doLogin();
         Util.TakeScreenshot(driver);

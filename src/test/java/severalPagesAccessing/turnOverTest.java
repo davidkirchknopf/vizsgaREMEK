@@ -1,6 +1,7 @@
 package severalPagesAccessing;
 
 import base.BaseTest;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.FriendsPage;
 import util.Util;
@@ -11,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class turnOverTest extends BaseTest {
 
     @Test
+    @DisplayName("Részletes keresés és lapozás tesztelése")
     public void SearchingForFriendsAdvancedTest() throws InterruptedException {
         doLogin();
         Util.TakeScreenshot(driver);

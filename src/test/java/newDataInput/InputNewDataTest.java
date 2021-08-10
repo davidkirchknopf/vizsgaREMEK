@@ -1,6 +1,7 @@
 package newDataInput;
 
 import base.BaseTest;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.MessagesPage;
 import pages.MyVIPAgiPage;
@@ -12,6 +13,7 @@ public class InputNewDataTest extends BaseTest {
 
 
     @Test
+    @DisplayName("Levél írásának tesztelése")
     public void WritingAMessageTest() {
         doLogin();
         Util.TakeScreenshot(driver);

@@ -1,6 +1,7 @@
 package dataAndDatasDeleting;
 
 import base.BaseTest;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.ImageUploadPage;
 import pages.ImagesPage;
@@ -12,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class PictureUploadAndDeleteTest extends BaseTest {
 
     @Test
+    @DisplayName("Új kép feltöltése, törlése és pontos számozása")
     public void PictureUploadAndDeleteTesting() throws InterruptedException {
         doLogin();
         Util.TakeScreenshot(driver);
