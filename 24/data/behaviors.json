@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Posztolás tesztelése egy megadott fájlból",
+    "uid" : "fc8ea43d92efc06f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592387755,
+      "stop" : 1628592410034,
+      "duration" : 22279
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Nevek kilistázása",
+    "uid" : "f444ee4517ea6abd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592410148,
+      "stop" : 1628592439978,
+      "duration" : 29830
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Sikeres kilépés tesztelése",
+    "uid" : "1d7ea083cdca76ba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592439984,
+      "stop" : 1628592457429,
+      "duration" : 17445
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Profil adatainak módosítása",
+    "uid" : "5976d8cd0c51fd68",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592457438,
+      "stop" : 1628592477684,
+      "duration" : 20246
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "MyVIP Ági nevének letöltése",
+    "uid" : "2ac2de3c190eb8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592477690,
+      "stop" : 1628592496007,
+      "duration" : 18317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Levél írásának tesztelése",
+    "uid" : "bac8639046d0dd07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592496013,
+      "stop" : 1628592522966,
+      "duration" : 26953
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Részletes keresés és lapozás tesztelése",
+    "uid" : "5f9cbb4c70686be5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592522976,
+      "stop" : 1628592551327,
+      "duration" : 28351
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Új kép feltöltése, törlése és pontos számozása",
+    "uid" : "394df6733b067a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1628592551335,
+      "stop" : 1628592577476,
+      "duration" : 26141
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Sikeres belépés tesztelése",
+    "uid" : "71cff6cd6e30cbd8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592577493,
+      "stop" : 1628592588915,
+      "duration" : 11422
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Adatvédelmi nyilatkozat használatának tesztelése",
+    "uid" : "1d4333640be35a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592588920,
+      "stop" : 1628592600666,
+      "duration" : 11746
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Sikeres regisztráció automatizálásának a tesztelése",
+    "uid" : "45161857930322e0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628592600675,
+      "stop" : 1628592616535,
+      "duration" : 15860
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

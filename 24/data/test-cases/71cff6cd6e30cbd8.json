@@ -1,0 +1,148 @@
+{
+  "uid" : "71cff6cd6e30cbd8",
+  "name" : "Sikeres belépés tesztelése",
+  "fullName" : "login.LoginTest.LoginTesting",
+  "historyId" : "34f790659d5ba88fdf96dfbb35d694fd",
+  "time" : {
+    "start" : 1628592577493,
+    "stop" : 1628592588915,
+    "duration" : 11422
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628592577493,
+      "stop" : 1628592582620,
+      "duration" : 5127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4d977cc01471c02a",
+      "name" : "Screenshot",
+      "source" : "4d977cc01471c02a.png",
+      "type" : "image/png",
+      "size" : 756769
+    }, {
+      "uid" : "df1ce909f8bb00ae",
+      "name" : "Screenshot",
+      "source" : "df1ce909f8bb00ae.png",
+      "type" : "image/png",
+      "size" : 692930
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628592585844,
+      "stop" : 1628592588914,
+      "duration" : 3070
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-771"
+  }, {
+    "name" : "thread",
+    "value" : "2876@fv-az77-771.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "login.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "login.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginTesting"
+  }, {
+    "name" : "suite",
+    "value" : "login.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4707467245fd7b8a",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/23//#testresult/4707467245fd7b8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628515526334,
+          "stop" : 1628515537938,
+          "duration" : 11604
+        }
+      }, {
+        "uid" : "fe3cd7c4125990da",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/22//#testresult/fe3cd7c4125990da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628512769681,
+          "stop" : 1628512781215,
+          "duration" : 11534
+        }
+      }, {
+        "uid" : "f81fcdffd3794066",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/21//#testresult/f81fcdffd3794066",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628512042001,
+          "stop" : 1628512053523,
+          "duration" : 11522
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "71cff6cd6e30cbd8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,148 @@
+{
+  "uid" : "5f9cbb4c70686be5",
+  "name" : "Részletes keresés és lapozás tesztelése",
+  "fullName" : "severalPagesAccessing.turnOverTest.SearchingForFriendsAdvancedTest",
+  "historyId" : "d8e5711c0d6dd03eb3a6b644a9ab28b",
+  "time" : {
+    "start" : 1628592522976,
+    "stop" : 1628592551327,
+    "duration" : 28351
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628592522977,
+      "stop" : 1628592529178,
+      "duration" : 6201
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c40a7063322bdead",
+      "name" : "Screenshot",
+      "source" : "c40a7063322bdead.png",
+      "type" : "image/png",
+      "size" : 198299
+    }, {
+      "uid" : "aa4e9983680272ee",
+      "name" : "Screenshot",
+      "source" : "aa4e9983680272ee.png",
+      "type" : "image/png",
+      "size" : 201482
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628592548255,
+      "stop" : 1628592551327,
+      "duration" : 3072
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-771"
+  }, {
+    "name" : "thread",
+    "value" : "2876@fv-az77-771.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "testClass",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchingForFriendsAdvancedTest"
+  }, {
+    "name" : "suite",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ee46fa5bedd7634b",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/23//#testresult/ee46fa5bedd7634b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628515471470,
+          "stop" : 1628515500449,
+          "duration" : 28979
+        }
+      }, {
+        "uid" : "4e10c4acfd45a345",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/22//#testresult/4e10c4acfd45a345",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628512715399,
+          "stop" : 1628512743975,
+          "duration" : 28576
+        }
+      }, {
+        "uid" : "f7904fbd001e0f85",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/21//#testresult/f7904fbd001e0f85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628511985710,
+          "stop" : 1628512014330,
+          "duration" : 28620
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5f9cbb4c70686be5.json",
+  "parameterValues" : [ ]
+}

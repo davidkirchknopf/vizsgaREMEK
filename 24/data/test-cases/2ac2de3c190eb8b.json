@@ -1,0 +1,148 @@
+{
+  "uid" : "2ac2de3c190eb8b",
+  "name" : "MyVIP Ági nevének letöltése",
+  "fullName" : "dataDownloading.DownloadAgisInformationTest.DownloadAgisInformationTesting",
+  "historyId" : "ebe6e76577b54bfcb05467dde1048ee0",
+  "time" : {
+    "start" : 1628592477690,
+    "stop" : 1628592496007,
+    "duration" : 18317
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1628592477691,
+      "stop" : 1628592482915,
+      "duration" : 5224
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57eb8897718a4e05",
+      "name" : "Screenshot",
+      "source" : "57eb8897718a4e05.png",
+      "type" : "image/png",
+      "size" : 199493
+    }, {
+      "uid" : "9acceebf00be7ed5",
+      "name" : "Screenshot",
+      "source" : "9acceebf00be7ed5.png",
+      "type" : "image/png",
+      "size" : 324688
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628592492935,
+      "stop" : 1628592496006,
+      "duration" : 3071
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-771"
+  }, {
+    "name" : "thread",
+    "value" : "2876@fv-az77-771.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "dataDownloading.DownloadAgisInformationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "dataDownloading.DownloadAgisInformationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "DownloadAgisInformationTesting"
+  }, {
+    "name" : "suite",
+    "value" : "dataDownloading.DownloadAgisInformationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "52cff01551fbe56e",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/23//#testresult/52cff01551fbe56e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628515425764,
+          "stop" : 1628515444263,
+          "duration" : 18499
+        }
+      }, {
+        "uid" : "184a9fd25975bef2",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/22//#testresult/184a9fd25975bef2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628512669694,
+          "stop" : 1628512688136,
+          "duration" : 18442
+        }
+      }, {
+        "uid" : "bb549984fc3957c1",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/21//#testresult/bb549984fc3957c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628511937554,
+          "stop" : 1628511957573,
+          "duration" : 20019
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2ac2de3c190eb8b.json",
+  "parameterValues" : [ ]
+}
