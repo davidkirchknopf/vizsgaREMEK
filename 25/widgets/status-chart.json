@@ -1,0 +1,111 @@
+[ {
+  "uid" : "15da350b0d9f24b0",
+  "name" : "Levél írásának tesztelése",
+  "time" : {
+    "start" : 1629401646736,
+    "stop" : 1629401649937,
+    "duration" : 3201
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "906829b956cd9710",
+  "name" : "Sikeres regisztráció automatizálásának a tesztelése",
+  "time" : {
+    "start" : 1629401662842,
+    "stop" : 1629401666033,
+    "duration" : 3191
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c50a26a688751c63",
+  "name" : "Sikeres belépés tesztelése",
+  "time" : {
+    "start" : 1629401656414,
+    "stop" : 1629401659614,
+    "duration" : 3200
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8bd9e9ddaeeb4209",
+  "name" : "Sikeres kilépés tesztelése",
+  "time" : {
+    "start" : 1629401637054,
+    "stop" : 1629401640233,
+    "duration" : 3179
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b85b0d10dec3ed9d",
+  "name" : "Posztolás tesztelése egy megadott fájlból",
+  "time" : {
+    "start" : 1629401618031,
+    "stop" : 1629401633710,
+    "duration" : 15679
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a535989f7bcdfce3",
+  "name" : "MyVIP Ági nevének letöltése",
+  "time" : {
+    "start" : 1629401643493,
+    "stop" : 1629401646700,
+    "duration" : 3207
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c076597da9c99821",
+  "name" : "Részletes keresés és lapozás tesztelése",
+  "time" : {
+    "start" : 1629401649966,
+    "stop" : 1629401653163,
+    "duration" : 3197
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "947c90512b8db425",
+  "name" : "Új kép feltöltése, törlése és pontos számozása",
+  "time" : {
+    "start" : 1629401653205,
+    "stop" : 1629401656388,
+    "duration" : 3183
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1c2292b876401402",
+  "name" : "Nevek kilistázása",
+  "time" : {
+    "start" : 1629401633822,
+    "stop" : 1629401637029,
+    "duration" : 3207
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1bc905c2b4b43216",
+  "name" : "Adatvédelmi nyilatkozat használatának tesztelése",
+  "time" : {
+    "start" : 1629401659652,
+    "stop" : 1629401662832,
+    "duration" : 3180
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "613d8c6739eab3ba",
+  "name" : "Profil adatainak módosítása",
+  "time" : {
+    "start" : 1629401640245,
+    "stop" : 1629401643470,
+    "duration" : 3225
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
