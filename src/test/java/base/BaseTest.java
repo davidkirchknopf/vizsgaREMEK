@@ -33,7 +33,7 @@ public class BaseTest {
         //options.addArguments("disable-infobars");
         //options.addArguments("--disable-extensions");
         options.addArguments("--disable-dev-shm-usage");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         //options.addArguments("--single-process");
 
         driver = new ChromeDriver(options);
@@ -62,6 +62,6 @@ public class BaseTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        //driver.quit();
+        driver.quit();
     }
 }
