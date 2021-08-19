@@ -26,8 +26,8 @@ public class ProfilePage {
     private final By EDIT_PROFILE_BUTTON = By.xpath("//span[.='edit profile']");
     private final By EDIT_PROFILE_INTRODUCTION_FIELD = By.xpath("//*[@id=\"formrow_pform_profile_intro\"]/div/div[2]/span/textarea\n");
     private final By SAVE_PROFILE_BUTTON = By.xpath("//div[29]//a[contains(.,'Save')]");
-    private final By PROFIL_PROFIL_BUTTON = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/ul/li[2]/a");
-    private final By PROFILE_INTRODUCTION = By.xpath("/html/body/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/ul/li[16]/span[2]/div\n");
+    private final By PROFIL_PROFIL_BUTTON = By.xpath("//li[@class=\"box-header-tab\"]");
+    private final By PROFILE_INTRODUCTION = By.xpath("//*[contains(text(),'introducation:')]//following::div[@style=\"width:400px;overflow:hidden;\"]");
     private final By PHOTOS_PAGE_BUTTON = By.xpath("//a[.='Photos']");
 
     public String getRandomString() {
@@ -91,7 +91,6 @@ public class ProfilePage {
     }
 
     public void interactProfileEditIntroducationField() {
-        driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD);
         driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).click();
         driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).clear();
         driver.findElement(EDIT_PROFILE_INTRODUCTION_FIELD).sendKeys(randomString());
