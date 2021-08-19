@@ -1,0 +1,111 @@
+[ {
+  "uid" : "1baa1b8ab6f16e43",
+  "name" : "Nevek kilistázása",
+  "time" : {
+    "start" : 1629409522157,
+    "stop" : 1629409572992,
+    "duration" : 50835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89f5b6b61c94af8d",
+  "name" : "Részletes keresés és lapozás tesztelése",
+  "time" : {
+    "start" : 1629409642549,
+    "stop" : 1629409739450,
+    "duration" : 96901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4da82e40f9b5a263",
+  "name" : "Új kép feltöltése, törlése és pontos számozása",
+  "time" : {
+    "start" : 1629409739453,
+    "stop" : 1629409761068,
+    "duration" : 21615
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdd48db80d0eca45",
+  "name" : "Sikeres kilépés tesztelése",
+  "time" : {
+    "start" : 1629409572998,
+    "stop" : 1629409588274,
+    "duration" : 15276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd1c43c885d4b13c",
+  "name" : "Posztolás tesztelése egy megadott fájlból",
+  "time" : {
+    "start" : 1629409494222,
+    "stop" : 1629409522012,
+    "duration" : 27790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66e9b45e24576e0",
+  "name" : "Levél írásának tesztelése",
+  "time" : {
+    "start" : 1629409619342,
+    "stop" : 1629409642534,
+    "duration" : 23192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f52335a55628905",
+  "name" : "Adatvédelmi nyilatkozat használatának tesztelése",
+  "time" : {
+    "start" : 1629409770141,
+    "stop" : 1629409779107,
+    "duration" : 8966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acc8f7ce06b9d496",
+  "name" : "Profil adatainak módosítása",
+  "time" : {
+    "start" : 1629409588278,
+    "stop" : 1629409604226,
+    "duration" : 15948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52ac2392e3911a64",
+  "name" : "Sikeres belépés tesztelése",
+  "time" : {
+    "start" : 1629409761078,
+    "stop" : 1629409770138,
+    "duration" : 9060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a6a511515fc8946",
+  "name" : "MyVIP Ági nevének letöltése",
+  "time" : {
+    "start" : 1629409604235,
+    "stop" : 1629409619338,
+    "duration" : 15103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73da73b52fb840dc",
+  "name" : "Sikeres regisztráció automatizálásának a tesztelése",
+  "time" : {
+    "start" : 1629409494157,
+    "stop" : 1629409521429,
+    "duration" : 27272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <6> but was: <(57)>",
+      "children" : [ {
+        "name" : "Új kép feltöltése, törlése és pontos számozása",
+        "uid" : "4da82e40f9b5a263",
+        "parentUid" : "5c8cf9c27a4ee976d1dc8a8109157ed2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629409739453,
+          "stop" : 1629409761068,
+          "duration" : 21615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c8cf9c27a4ee976d1dc8a8109157ed2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

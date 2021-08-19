@@ -1,0 +1,160 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az39-683",
+    "children" : [ {
+      "name" : "3079@fv-az39-683.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "Sikeres regisztráció automatizálásának a tesztelése",
+        "uid" : "73da73b52fb840dc",
+        "parentUid" : "6935114ae67489b5b6f0aeebb950d0be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409494157,
+          "stop" : 1629409521429,
+          "duration" : 27272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6935114ae67489b5b6f0aeebb950d0be"
+    }, {
+      "name" : "3080@fv-az39-683.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "Nevek kilistázása",
+        "uid" : "1baa1b8ab6f16e43",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409522157,
+          "stop" : 1629409572992,
+          "duration" : 50835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Posztolás tesztelése egy megadott fájlból",
+        "uid" : "fd1c43c885d4b13c",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409494222,
+          "stop" : 1629409522012,
+          "duration" : 27790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "MyVIP Ági nevének letöltése",
+        "uid" : "1a6a511515fc8946",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409604235,
+          "stop" : 1629409619338,
+          "duration" : 15103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Levél írásának tesztelése",
+        "uid" : "66e9b45e24576e0",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409619342,
+          "stop" : 1629409642534,
+          "duration" : 23192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikeres kilépés tesztelése",
+        "uid" : "bdd48db80d0eca45",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409572998,
+          "stop" : 1629409588274,
+          "duration" : 15276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adatvédelmi nyilatkozat használatának tesztelése",
+        "uid" : "4f52335a55628905",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409770141,
+          "stop" : 1629409779107,
+          "duration" : 8966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Profil adatainak módosítása",
+        "uid" : "acc8f7ce06b9d496",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409588278,
+          "stop" : 1629409604226,
+          "duration" : 15948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sikeres belépés tesztelése",
+        "uid" : "52ac2392e3911a64",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409761078,
+          "stop" : 1629409770138,
+          "duration" : 9060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Új kép feltöltése, törlése és pontos számozása",
+        "uid" : "4da82e40f9b5a263",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629409739453,
+          "stop" : 1629409761068,
+          "duration" : 21615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Részletes keresés és lapozás tesztelése",
+        "uid" : "89f5b6b61c94af8d",
+        "parentUid" : "7ea8689cc847fc395c0e45ee2e927bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629409642549,
+          "stop" : 1629409739450,
+          "duration" : 96901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ea8689cc847fc395c0e45ee2e927bca"
+    } ],
+    "uid" : "4bccb02fa9b9060fe935a637235a24a4"
+  } ],
+  "name" : "timeline"
+}

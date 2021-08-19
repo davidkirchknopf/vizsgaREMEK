@@ -1,0 +1,167 @@
+{
+  "uid" : "89f5b6b61c94af8d",
+  "name" : "Részletes keresés és lapozás tesztelése",
+  "fullName" : "severalPagesAccessing.turnOverTest.SearchingForFriendsAdvancedTest",
+  "historyId" : "d8e5711c0d6dd03eb3a6b644a9ab28b",
+  "time" : {
+    "start" : 1629409642549,
+    "stop" : 1629409739450,
+    "duration" : 96901
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629409642549,
+      "stop" : 1629409646704,
+      "duration" : 4155
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d52d1ccf71c1b840",
+      "name" : "Screenshot",
+      "source" : "d52d1ccf71c1b840.png",
+      "type" : "image/png",
+      "size" : 198103
+    }, {
+      "uid" : "d60cfafbfcfd461c",
+      "name" : "Screenshot",
+      "source" : "d60cfafbfcfd461c.png",
+      "type" : "image/png",
+      "size" : 201204
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629409736372,
+      "stop" : 1629409739450,
+      "duration" : 3078
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-683"
+  }, {
+    "name" : "thread",
+    "value" : "3080@fv-az39-683.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "testClass",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchingForFriendsAdvancedTest"
+  }, {
+    "name" : "suite",
+    "value" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "c076597da9c99821",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/25//#testresult/c076597da9c99821",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az81-941', ip: '10.1.0.119', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55b33cee0a63 <unknown>\n#1 0x55b33cc55458 <unknown>\n#2 0x55b33cc782e3 <unknown>\n#3 0x55b33cc73e9f <unknown>\n#4 0x55b33ccadb72 <unknown>\n#5 0x55b33cca7fd3 <unknown>\n#6 0x55b33cc7e514 <unknown>\n#7 0x55b33cc7f505 <unknown>\n#8 0x55b33cf0ce2e <unknown>\n#9 0x55b33cf22886 <unknown>\n#10 0x55b33cf0dd75 <unknown>\n#11 0x55b33cf23d94 <unknown>\n#12 0x55b33cf048eb <unknown>\n#13 0x55b33cf3ecd8 <unknown>\n#14 0x55b33cf3ee58 <unknown>\n#15 0x55b33cf58dfd <unknown>\n#16 0x7fb9a8d6a609 start_thread\n",
+        "time" : {
+          "start" : 1629401649966,
+          "stop" : 1629401653163,
+          "duration" : 3197
+        }
+      }, {
+        "uid" : "5f9cbb4c70686be5",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/24//#testresult/5f9cbb4c70686be5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628592522976,
+          "stop" : 1628592551327,
+          "duration" : 28351
+        }
+      }, {
+        "uid" : "ee46fa5bedd7634b",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/23//#testresult/ee46fa5bedd7634b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628515471470,
+          "stop" : 1628515500449,
+          "duration" : 28979
+        }
+      }, {
+        "uid" : "4e10c4acfd45a345",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/22//#testresult/4e10c4acfd45a345",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628512715399,
+          "stop" : 1628512743975,
+          "duration" : 28576
+        }
+      }, {
+        "uid" : "f7904fbd001e0f85",
+        "reportUrl" : "https://davidkirchknopf.github.io/vizsgaREMEK/21//#testresult/f7904fbd001e0f85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628511985710,
+          "stop" : 1628512014330,
+          "duration" : 28620
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "89f5b6b61c94af8d.json",
+  "parameterValues" : [ ]
+}
