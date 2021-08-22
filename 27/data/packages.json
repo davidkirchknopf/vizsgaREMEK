@@ -1,0 +1,192 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "repeatedAndSequentialDataInputFromSource.DataInputFromSourceTest",
+    "children" : [ {
+      "name" : "ShareSomethingOnTheWallTest",
+      "uid" : "db0fcc3ff9d2095e",
+      "parentUid" : "bc9103f3006ced6d5481cc67d0f0ff83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658305742,
+        "stop" : 1629658336053,
+        "duration" : 30311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "repeatedAndSequentialDataInputFromSource.DataInputFromSourceTest"
+  }, {
+    "name" : "listingDatas.DatasListingTest",
+    "children" : [ {
+      "name" : "ClickingWhomCouldIKnowTest",
+      "uid" : "74e9b1f8709ef647",
+      "parentUid" : "336d6a27ec290ca78d53f631ed46aeba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658336156,
+        "stop" : 1629658364773,
+        "duration" : 28617
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "listingDatas.DatasListingTest"
+  }, {
+    "name" : "logout.LogOutTest",
+    "children" : [ {
+      "name" : "LoggingOutTest",
+      "uid" : "404669c9126144e5",
+      "parentUid" : "f89b57ef47a29434c885319fa49b2bab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658364782,
+        "stop" : 1629658379823,
+        "duration" : 15041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "logout.LogOutTest"
+  }, {
+    "name" : "dataModification.ModificationTest",
+    "children" : [ {
+      "name" : "ModificationOurProfilTest",
+      "uid" : "8e03af6619db2f63",
+      "parentUid" : "aeca2edc09b7c6e688b94ab4fbf6754a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658379834,
+        "stop" : 1629658396897,
+        "duration" : 17063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dataModification.ModificationTest"
+  }, {
+    "name" : "dataDownloading.DownloadAgisInformationTest",
+    "children" : [ {
+      "name" : "DownloadAgisInformationTesting",
+      "uid" : "84e01be7a716752c",
+      "parentUid" : "f638fb6b437dcb4eaa63d6e0152bfe5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658396904,
+        "stop" : 1629658412884,
+        "duration" : 15980
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dataDownloading.DownloadAgisInformationTest"
+  }, {
+    "name" : "newDataInput.InputNewDataTest",
+    "children" : [ {
+      "name" : "WritingAMessageTest",
+      "uid" : "ad44e378ae5b9b0b",
+      "parentUid" : "2bda896e6681ee00e8d29140b9df440b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658412889,
+        "stop" : 1629658436558,
+        "duration" : 23669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "newDataInput.InputNewDataTest"
+  }, {
+    "name" : "severalPagesAccessing.turnOverTest",
+    "children" : [ {
+      "name" : "SearchingForFriendsAdvancedTest",
+      "uid" : "1bbf78ca845011ec",
+      "parentUid" : "dc19edcd1f5d0ce1cdf2679d08574897",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658436572,
+        "stop" : 1629658463564,
+        "duration" : 26992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "severalPagesAccessing.turnOverTest"
+  }, {
+    "name" : "dataAndDatasDeleting.PictureUploadAndDeleteTest",
+    "children" : [ {
+      "name" : "PictureUploadAndDeleteTesting",
+      "uid" : "30b6c8b4819dcc6c",
+      "parentUid" : "984971432c9b2acbf070f2c13d252219",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629658463569,
+        "stop" : 1629658486083,
+        "duration" : 22514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dataAndDatasDeleting.PictureUploadAndDeleteTest"
+  }, {
+    "name" : "login.LoginTest",
+    "children" : [ {
+      "name" : "LoginTesting",
+      "uid" : "91f13fe1139c1e35",
+      "parentUid" : "71a62f40dfbbe73f321ab685820ac647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658486100,
+        "stop" : 1629658495434,
+        "duration" : 9334
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "login.LoginTest"
+  }, {
+    "name" : "privacyStatementUsage.StatementTest",
+    "children" : [ {
+      "name" : "StatementReadingSavingTest",
+      "uid" : "28347133748893b4",
+      "parentUid" : "4963d709ad201420ba09eeb8604e5126",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658495438,
+        "stop" : 1629658504778,
+        "duration" : 9340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "privacyStatementUsage.StatementTest"
+  }, {
+    "name" : "registration.RegTest",
+    "children" : [ {
+      "name" : "RegistrationTest",
+      "uid" : "aa0f1a1a2d312b8c",
+      "parentUid" : "56b09afa5853dce995da2d7f13af9aad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629658504782,
+        "stop" : 1629658518974,
+        "duration" : 14192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "registration.RegTest"
+  } ],
+  "name" : "packages"
+}
